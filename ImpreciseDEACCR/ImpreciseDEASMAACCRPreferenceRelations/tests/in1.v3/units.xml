@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+<alternatives>
+	 <description>
+		<comment>
+			Example of Jahanshahloo et al. Applied Mathematical Modelling 33 (2009) 3237–3244.
+		</comment>
+	</description>
+  
+    <alternative id="alt1">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt2">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt3">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt4">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt5">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt6">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt7">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt8">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt9">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt10">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt11">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt12">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt13">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt14">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt15">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt16">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt17">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt18">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt19">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt20">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+  
+</xmcda:XMCDA>

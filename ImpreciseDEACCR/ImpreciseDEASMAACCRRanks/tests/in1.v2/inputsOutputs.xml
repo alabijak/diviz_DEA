@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+    <criteria>
+        <criterion id="i1">
+            <scale>
+                <qualitative>
+                    <preferenceDirection>min</preferenceDirection>
+                    <rankedLabel>
+                        <label>1</label>
+                        <rank>1</rank>
+                    </rankedLabel>
+                </qualitative>
+            </scale>
+        </criterion>
+        <criterion id="i2">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>min</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="i3">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>min</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="o1">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+        <criterion id="o2">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+                <criterion id="o3">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+                <criterion id="o4">
+            <scale>
+                <qualitative>
+                    <preferenceDirection>max</preferenceDirection>
+                                    <rankedLabel>
+                        <label>1</label>
+                        <rank>1</rank>
+                    </rankedLabel>
+                </qualitative>
+            </scale>
+        </criterion>
+                <criterion id="o5">
+            <scale>
+                <quantitative>
+                    <preferenceDirection>max</preferenceDirection>
+                </quantitative>
+            </scale>
+        </criterion>
+    </criteria>
+</xmcda:XMCDA>
