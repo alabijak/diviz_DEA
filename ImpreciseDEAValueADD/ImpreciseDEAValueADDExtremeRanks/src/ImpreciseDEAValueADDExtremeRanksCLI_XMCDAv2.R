@@ -1,12 +1,13 @@
 # usage:
-# R --slave --vanilla --file=ImpreciseDEACCRPreferenceRelationsCLI_XMCDAv2.R --args "[inDirectory]" "[outDirectory]"
+# R --slave --vanilla --file=ImpreciseDEAValueADDExtremeRanksCLI_XMCDAv2.R --args "[inDirectory]" "[outDirectory]"
 
 rm(list=ls())
 
 # tell R to use the rJava package and the RXMCDA3 package
-library(lpSolveAPI)
+
 library(rJava)
 library(XMCDA3)
+library(lpSolveAPI)
 
 # cf. http://stackoverflow.com/questions/1815606/rscript-determine-path-of-the-executing-script
 
@@ -24,13 +25,15 @@ script.dir <- function() {
 }
 # load the R files in the script's directory
 script.wd <- setwd(script.dir())
+setwd(script.wd)
 
 source("utils.R")
 source("inputsHandler.R")
 source("outputsHandler.R")
-#source("ImpreciseDEACCRPreferenceRelations.R")
+
 # restore the working directory so that relative paths passed as
 # arguments work as expected
+
 if (!is.null(script.wd)) setwd(script.wd)
 
 # get the in and out directories from the arguments
@@ -42,13 +45,12 @@ outDirectory <- commandArgs(trailingOnly=TRUE)[2]
 
 unitsFile <- "units.xml"
 inputsOutputsFile <- "inputsOutputs.xml"
-inputsOutputsScalesFile <- "inputsOutputsScales.xml"
 performanceTableFile <- "performanceTable.xml"
 maxPerformanceTableFile <- "maxPerformanceTable.xml"
 weightsLinearConstraintsFile <- "weightsLinearConstraints.xml"
 methodParametersFile <- "methodParameters.xml"
-necessaryDominanceFile <- "necessaryDominance.xml"
-possibleDominanceFile <- "possibleDominance.xml"
+minEfficiencyFile <- "minEfficiency.xml"
+maxEfficiencyFile <- "maxEfficiency.xml"
 messagesFile <- "messages.xml"
 
 # the Java xmcda object for the output messages
@@ -56,7 +58,6 @@ messagesFile <- "messages.xml"
 xmcdaMessages<-.jnew("org/xmcda/XMCDA")
 xmcdaDatav2 <- .jnew("org/xmcda/v2_2_1/XMCDA")
 xmcdaData <- .jnew("org/xmcda/XMCDA")
-
 loadXMCDAv2(xmcdaDatav2, inDirectory, unitsFile, mandatory = TRUE, xmcdaMessages,"alternatives")
 loadXMCDAv2(xmcdaDatav2, inDirectory, inputsOutputsFile, mandatory = TRUE, xmcdaMessages,"criteria")
 loadXMCDAv2(xmcdaDatav2, inDirectory, performanceTableFile, mandatory = TRUE, xmcdaMessages,"performanceTable")
@@ -84,7 +85,8 @@ xmcdaData <- handleException(
   xmcdaMessages,
   humanMessage = "Could not convert inputs to XMCDA v3, reason: "
 )
-xmcdaData <- convertConstraints(xmcdaDatav2, xmcdaData)
+
+xmcdaData<- convertConstraints(xmcdaDatav2, xmcdaData)
 
 if (xmcdaMessages$programExecutionResultsList$size() > 0){
   if (xmcdaMessages$programExecutionResultsList$get(as.integer(0))$isError()){
@@ -108,14 +110,15 @@ if (xmcdaMessages$programExecutionResultsList$size()>0){
 
 # now let's call the calculation method
 
-source("impreciseEfficiencyDominance.R")
+source("rank.R")
 results <- handleException(
   function() return(
-    calculateDominanceForAll(inputs)
-  ),
+    calculateRank(inputs, inputs$transformToUtilities))
+  ,
   xmcdaMessages,
   humanMessage = "The calculation could not be performed, reason: "
 )
+
 
 
 
@@ -128,22 +131,22 @@ if (is.null(results)){
 
 # fine, now let's put the results into XMCDA structures
 
-xResults = convert(results, xmcdaData$alternatives, xmcdaMessages)
+xResults = convert(results, inputs$altIDs, xmcdaMessages)
 
 if (is.null(xResults)){
   writeXMCDAv2(xmcdaMessages, paste(outDirectory, messagesFile, sep="/"))
-  stop("Could not convert ImpreciseDEACCRPreferenceRelations results into XMCDA")
+  stop("Could not convert ImpreciseDEACCREfficiency results into XMCDA")
 }
 
 # and last, convert them to XMCDAv2 and write them onto the disk
 
 for (i in 1:length(xResults)){
   outputFilename = paste(outDirectory, paste(names(xResults)[i],".xml",sep=""), sep="/")
-
+  
   # convert current xResults to v2
-
+  
   results_v2 <- .jnew("org/xmcda/v2_2_1/XMCDA")
-
+  
   results_v2 <- handleException(
     function() return(
       converter$convertTo_v2(xResults[[i]])
@@ -151,31 +154,31 @@ for (i in 1:length(xResults)){
     xmcdaMessages,
     humanMessage = paste("Could not convert ", names(xResults)[i], " into XMCDA_v2, reason: ", sep ="")
   )
-
+  
   if (is.null(results_v2)){
     writeXMCDAv2(xmcdaMessages, paste(outDirectory, messagesFile, sep="/"))
     stop(paste("Could not convert ", names(xResults)[i], " into XMCDA_v2", sep =""))
   }
-
+  
   # now write the converted result to the file
-
+  
   parser2<-.jnew("org/xmcda/parsers/xml/xmcda_2_2_1/XMCDAParser")
-
+  
   tmp <- handleException(
-     function() return(
-       parser2$writeXMCDA(results_v2, outputFilename, .jarray(xmcda_v2_tag(names(xResults)[i])))
-     ),
-     xmcdaMessages,
-     humanMessage = paste("Error while writing ", outputFilename, " reason: ", sep="")
-   )
-
-   if (xmcdaMessages$programExecutionResultsList$size()>0){
-     if (xmcdaMessages$programExecutionResultsList$get(as.integer(0))$isError()){
-       writeXMCDAv2(xmcdaMessages, paste(outDirectory, messagesFile, sep="/"))
-       stop(paste("Error while writing ", outputFilename, sep=""))
-     }
-   }
-
+    function() return(
+      parser2$writeXMCDA(results_v2, outputFilename, .jarray(xmcda_v2_tag(names(xResults)[i])))
+    ),
+    xmcdaMessages,
+    humanMessage = paste("Error while writing ", outputFilename, " reason: ", sep="")
+  )
+  
+  if (xmcdaMessages$programExecutionResultsList$size()>0){
+    if (xmcdaMessages$programExecutionResultsList$get(as.integer(0))$isError()){
+      writeXMCDAv2(xmcdaMessages, paste(outDirectory, messagesFile, sep="/"))
+      stop(paste("Error while writing ", outputFilename, sep=""))
+    }
+  }
+  
 }
 
 # then the messages file
@@ -206,3 +209,4 @@ if (xmcdaMessages$programExecutionResultsList$size()>0){
     stop("Error while writing messages file.")
   }
 }
+

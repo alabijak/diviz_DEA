@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+<alternatives>
+	 <description>
+		<title>
+			Iranian bank branches
+		</title>
+		<comment>
+			Example of Jahanshahloo et al. Applied Mathematical Modelling 33 (2009) 3237–3244.
+		</comment>
+	</description>
+  
+    <alternative id="alt1">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt2">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt3">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt4">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt5">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt6">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt7">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt8">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt9">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt10">
+      <active>true</active>
+    </alternative>
+    <alternative id="alt11">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt12">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt13">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt14">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt15">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt16">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt17">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt18">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt19">
+      <active>true</active>
+    </alternative>
+	<alternative id="alt20">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+  
+</xmcda:XMCDA>

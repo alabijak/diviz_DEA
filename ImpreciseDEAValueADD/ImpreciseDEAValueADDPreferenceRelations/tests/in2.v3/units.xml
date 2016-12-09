@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+<alternatives>
+	 <description>
+		<comment>
+			Example of Gouveia et al. Journal of the Operational Research Society (2013) 64, 86–96.
+		</comment>
+	</description>
+  
+    <alternative id="h1">
+      <active>true</active>
+    </alternative>
+    <alternative id="h2">
+      <active>true</active>
+    </alternative>
+    <alternative id="h3">
+      <active>true</active>
+    </alternative>
+	<alternative id="h4">
+      <active>true</active>
+    </alternative>
+	<alternative id="h5">
+      <active>true</active>
+    </alternative>
+    <alternative id="h6">
+      <active>true</active>
+    </alternative>
+    <alternative id="h7">
+      <active>true</active>
+    </alternative>
+	<alternative id="h8">
+      <active>true</active>
+    </alternative>
+	<alternative id="h9">
+      <active>true</active>
+    </alternative>
+    <alternative id="h10">
+      <active>true</active>
+    </alternative>
+    <alternative id="h11">
+      <active>true</active>
+    </alternative>
+	<alternative id="h12">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+  
+</xmcda:XMCDA>

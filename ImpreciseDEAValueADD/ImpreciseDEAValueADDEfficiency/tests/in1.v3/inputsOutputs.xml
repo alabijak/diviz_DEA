@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+    <criteria>
+        <criterion id="i1"/>
+        <criterion id="i2"/>
+        <criterion id="i3"/>
+        <criterion id="o1"/>
+        <criterion id="o2"/>
+        <criterion id="o3"/>
+        <criterion id="o4"/>
+        <criterion id="o5"/>
+    </criteria>
+</xmcda:XMCDA>
