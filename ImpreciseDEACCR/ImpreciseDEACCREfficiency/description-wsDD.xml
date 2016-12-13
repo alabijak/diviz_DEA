@@ -4,8 +4,6 @@
    <documentation>
       <description>Computes efficiency scores for the given DMUs (alternatives)  using CCR Data Envelopment Analysis Model with imprecise information.</description>
       <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
-      <reference>G. Jahanshahloo, F. H. Lotfi, M. R. Malkhalifeh, and M. A. Namin. A generalized model for data envelopment analysis with interval data. 2009.</reference>
-      <reference>Joe Zhu. Imprecise data envelopment analysis (IDEA): A review and improvement with an application. 2001</reference>
    </documentation>
    <parameters>
       <input id="units" name="units" displayName="units" isoptional="0">
@@ -102,7 +100,7 @@
          <gui status="preferGUI">
             <entry id="%1" type="float" displayName="tolerance">
                <constraint>
-                  <description>The value should be a non-negative integer.</description>
+                  <description>The value should be a non-negative number.</description>
                   <code><![CDATA[%1 >= 0]]></code>
                </constraint>
                <defaultValue>0.00</defaultValue>

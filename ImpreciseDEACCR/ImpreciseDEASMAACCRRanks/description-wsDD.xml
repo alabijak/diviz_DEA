@@ -114,7 +114,7 @@
             </entry>
             <entry id="%2" type="float" displayName="tolerance">
                <constraint>
-                  <description>The value should be a non-negative.</description>
+                  <description>The value should be a non-negative number.</description>
                   <code><![CDATA[%2 >= 0]]></code>
                </constraint>
                <defaultValue>0.0</defaultValue>

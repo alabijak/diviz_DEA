@@ -100,7 +100,7 @@
          <gui status="preferGUI">
             <entry id="%1" type="float" displayName="tolerance">
                <constraint>
-                  <description>The value should be a non-negative integer.</description>
+                  <description>The value should be a non-negative number.</description>
                   <code><![CDATA[%1 >= 0]]></code>
                </constraint>
                <defaultValue>0.00</defaultValue>

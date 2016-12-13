@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
+   <program provider="PUT" name="ImpreciseDEASMAAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
    <documentation>
-      <description>Computes efficiency scores for the given DMUs (alternatives)  using Additive Data Envelopment Analysis Model with imprecise information.</description>
+      <description>Computes efficiency scores for the given DMUs (alternatives) using SMAA-D method and Additive Data Envelopment Analysis Model with imprecise data. For given number of buckets and samples, returns a matrix with alternatives in each row and buckets representing efficiency intervals in each column. Single cell indicates how many samples gave efficiency scores of respective alternative in respective bucket.</description>
       <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
-      <reference>G. Jahanshahloo, F. H. Lotfi, M. R. Malkhalifeh, and M. A. Namin. A generalized model for data envelopment analysis with interval data. 2009.</reference>
-      <reference>MC. Gouveia et al. Super-efficiency and stability intervals in additive DEA. 2013</reference>
    </documentation>
    <parameters>
       <input id="units" name="units" displayName="units" isoptional="0">
@@ -92,26 +90,88 @@
       </input>
 	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
          <documentation>
-            <description>Represents method parameters (tolerance).</description>
+            <description>Represents method parameters. 
+            "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
+            "transformToUtilities" means if data should be tranformed into values from range [0-1],
+            "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
+            "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor,
+            "samplesNo" determines number of samples used to calculate results,
+            "intervalsNo" determines number of buckets, for which the efficiency scores are divided.
+            </description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter id="tolerance">
-								<value>%1</value>
+							<parameter name="samplesNo">
+								<value><integer>%1</integer></value>
+							</parameter>
+							<parameter name="intervalsNo">
+								<value><integer>%2</integer></value>
+							</parameter>
+							<parameter name="tolerance">
+								<value><integer>%3</integer></value>
+							</parameter>
+                            <parameter id="transformToUtilities">
+								<value>%4</value>
+							</parameter>
+                            <parameter id="boundariesProvided">
+								<value>%5</value>
+							</parameter>
+                            <parameter id="functionShapeProvided">
+								<value>%6</value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="float" displayName="tolerance">
+            <entry id="%1" type="int" displayName="samplesNo">
                <constraint>
-                  <description>The value should be a non-negative integer.</description>
-                  <code><![CDATA[%1 >= 0]]></code>
+                  <description>The value should be a positive integer.</description>
+                  <code><![CDATA[%1 > 0]]></code>
                </constraint>
-               <defaultValue>0.00</defaultValue>
+               <defaultValue>100</defaultValue>
+            </entry>
+            <entry id="%2" type="int" displayName="intervalsNo">
+               <constraint>
+                  <description>The value should be a positive integer.</description>
+                  <code><![CDATA[%2 > 0]]></code>
+               </constraint>
+               <defaultValue>10</defaultValue>
+            </entry>
+            <entry id="%3" type="float" displayName="tolerance">
+               <constraint>
+                  <description>The value should be a non-negative number.</description>
+                  <code><![CDATA[%3 >= 0]]></code>
+               </constraint>
+               <defaultValue>0.0</defaultValue>
+            </entry>
+            <entry id="%4" type="boolean" displayName="transformToUtilities">
+               <defaultValue>true</defaultValue>
+            </entry>
+            <entry id="%5" type="boolean" displayName="boundariesProvided">
+               <defaultValue>false</defaultValue>
+            </entry>
+            <entry id="%6" type="boolean" displayName="functionShapeProvided">
+               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>
-      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
+      <output id="efficiencyDistribution" name="efficiencyDistribution" displayName="efficiencyDistribution">
          <documentation>
-            <description>A list of alternatives with computed minimum efficiency scores.</description>
+            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain bucket, and a value representing the ratio of efficiency scores in this bucket.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID> Bucket [...]</criterionID>
+									<value>
+									[...]
+									</value>
+							</performance>
+							[...]
+						</alternativePerformances>
+					</performanceTable>]]></xmcda>
+      </output>
+      <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
+         <documentation>
+            <description>A list of alternatives with maximum efficiency scores (obtained for given sample).</description>
          </documentation>
          <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
 						<alternativeValue>
@@ -123,9 +183,23 @@
 						[...]
 					</alternativesValues>]]></xmcda>
       </output>
-	  <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
+      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
          <documentation>
-            <description>A list of alternatives with computed maximum efficiency scores.</description>
+            <description>A list of alternatives with computed minimum efficiency scores (obtained for given sample).</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <value>
+							[...]
+						  </value>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="avgEfficiency" name="avgEfficiency" displayName="avgEfficiency">
+         <documentation>
+            <description>A list of alternatives with average efficiency scores (obtained for given sample).</description>
          </documentation>
          <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
 						<alternativeValue>

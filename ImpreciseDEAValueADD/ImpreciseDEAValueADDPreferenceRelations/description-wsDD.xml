@@ -91,21 +91,44 @@
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
 	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
-         <documentation>
-            <description>Represents method parameters (tolerance).</description>
+          <documentation>
+            <description>Represents method parameters. 
+            "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
+            "transformToUtilities" means if data should be tranformed into values from range [0-1],
+            "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
+            "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
+            </description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
 							<parameter id="tolerance">
 								<value>%1</value>
 							</parameter>
+                            <parameter id="transformToUtilities">
+								<value>%2</value>
+							</parameter>
+                            <parameter id="boundariesProvided">
+								<value>%3</value>
+							</parameter>
+                            <parameter id="functionShapeProvided">
+								<value>%4</value>
+							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="float" displayName="tolerance">
                <constraint>
-                  <description>The value should be a non-negative integer.</description>
+                  <description>The value should be non-negative.</description>
                   <code><![CDATA[%1 >= 0]]></code>
                </constraint>
                <defaultValue>0.00</defaultValue>
+            </entry>
+            <entry id="%2" type="boolean" displayName="transformToUtilities">
+               <defaultValue>true</defaultValue>
+            </entry>
+            <entry id="%3" type="boolean" displayName="boundariesProvided">
+               <defaultValue>false</defaultValue>
+            </entry>
+            <entry id="%4" type="boolean" displayName="functionShapeProvided">
+               <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>
