@@ -45,7 +45,7 @@ calculateEfficiencyForAll = function (dmuData) {
     return(calculateEfficiencyForAll(dmuData))
   }
   
-  source("ImpreciseMinEff.R")
+  source("impreciseMinEff.R")
   dmuCount = nrow(dmuData$data)
   result <- array(0, dim=c(dmuCount,1))
   
