@@ -35,9 +35,9 @@ loadXMCDAv2 <- function(xmcdaData_v2, inDirectory, filename, mandatory, programE
 }
 
 readXMCDAv2_and_update <- function(xmcda_v2 = NULL, file, tag){
-  if (is.null(xmcda_v2)) xmcda_v2<-.jnew("org/xmcda/v2_2_1/XMCDA")
+  if (is.null(xmcda_v2)) xmcda_v2<-.jnew("org/xmcda/v2/XMCDA")
   
-  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_2_2_1/XMCDAParser")
+  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_v2/XMCDAParser")
   
   new_xmcda <- parser2$readXMCDA(file,.jarray(c(tag)))
   
@@ -49,13 +49,13 @@ readXMCDAv2_and_update <- function(xmcda_v2 = NULL, file, tag){
 }
 
 writeXMCDAv2 <- function(xmcda, filename){
-  xmcda_v2 <- .jnew("org/xmcda/v2_2_1/XMCDA")
+  xmcda_v2 <- .jnew("org/xmcda/v2/XMCDA")
   
-  converter<-.jnew("org/xmcda/converters/v2_2_1_v3_0/XMCDAConverter")
+  converter<-.jnew("org/xmcda/converters/v2_v3/XMCDAConverter")
   
   xmcda_v2 <- converter$convertTo_v2(xmcda)
   
-  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_2_2_1/XMCDAParser")
+  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_v2/XMCDAParser")
   
   parser2$writeXMCDA(xmcda_v2, paste(filename, sep="/"))
 }
@@ -64,14 +64,14 @@ convertConstraints <- function(xmcdaDatav2, xmcdaData) {
   parameters <- xmcdaDatav2$getProjectReferenceOrMethodMessagesOrMethodParameters()
   for(param in as.list(parameters))
   {
-    if(param$getValue() %instanceof% "org.xmcda.v2_2_1.CriteriaLinearConstraints")
+    if(param$getValue() %instanceof% "org.xmcda.v2.CriteriaLinearConstraints")
     {
       constraints_v3 <- .jnew("org/xmcda/CriteriaLinearConstraints")
       for(const in as.list(param$getValue()$getConstraint()))
       {
         constr_v3<-.jnew("org/xmcda/LinearConstraint")
         rhs <- const$getRhs()
-        converter<-.jnew("org/xmcda/converters/v2_2_1_v3_0/QualifiedValueConverter")
+        converter<-.jnew("org/xmcda/converters/v2_v3/QualifiedValueConverter")
         operator <- toupper(const$getOperator())
         rhs_v3 <- converter$convertTo_v3(rhs, xmcdaData)
         

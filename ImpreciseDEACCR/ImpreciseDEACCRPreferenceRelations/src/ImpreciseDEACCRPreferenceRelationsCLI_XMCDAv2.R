@@ -54,7 +54,7 @@ messagesFile <- "messages.xml"
 # the Java xmcda object for the output messages
 
 xmcdaMessages<-.jnew("org/xmcda/XMCDA")
-xmcdaDatav2 <- .jnew("org/xmcda/v2_2_1/XMCDA")
+xmcdaDatav2 <- .jnew("org/xmcda/v2/XMCDA")
 xmcdaData <- .jnew("org/xmcda/XMCDA")
 
 loadXMCDAv2(xmcdaDatav2, inDirectory, unitsFile, mandatory = TRUE, xmcdaMessages,"alternatives")
@@ -75,7 +75,7 @@ if (xmcdaMessages$programExecutionResultsList$size() > 0){
 
 # convert that to XMCDA v3
 
-converter<-.jnew("org/xmcda/converters/v2_2_1_v3_0/XMCDAConverter")
+converter<-.jnew("org/xmcda/converters/v2_v3/XMCDAConverter")
 
 xmcdaData <- handleException(
   function() return(
@@ -142,7 +142,7 @@ for (i in 1:length(xResults)){
 
   # convert current xResults to v2
 
-  results_v2 <- .jnew("org/xmcda/v2_2_1/XMCDA")
+  results_v2 <- .jnew("org/xmcda/v2/XMCDA")
 
   results_v2 <- handleException(
     function() return(
@@ -159,7 +159,7 @@ for (i in 1:length(xResults)){
 
   # now write the converted result to the file
 
-  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_2_2_1/XMCDAParser")
+  parser2<-.jnew("org/xmcda/parsers/xml/xmcda_v2/XMCDAParser")
 
   tmp <- handleException(
      function() return(
