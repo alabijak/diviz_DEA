@@ -23,7 +23,7 @@
          </documentation>
          <xmcda tag="criteria"><![CDATA[<criteria>
                         <criterion>
-							<scale>								
+							<scale>
                                 [...]
 							</scale>
                             [...]
@@ -90,7 +90,7 @@
       </input>
 	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
          <documentation>
-            <description>Represents method parameters. 
+            <description>Represents method parameters.
             "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
             "transformToUtilities" means if data should be tranformed into values from range [0-1],
             "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
@@ -99,26 +99,28 @@
             "intervalsNo" determines number of buckets, for which the efficiency scores are divided.
             </description>
          </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="samplesNo">
-								<value><integer>%1</integer></value>
-							</parameter>
-							<parameter name="intervalsNo">
-								<value><integer>%2</integer></value>
-							</parameter>
-							<parameter name="tolerance">
-								<value><integer>%3</integer></value>
-							</parameter>
-                            <parameter id="transformToUtilities">
-								<value>%4</value>
-							</parameter>
-                            <parameter id="boundariesProvided">
-								<value>%5</value>
-							</parameter>
-                            <parameter id="functionShapeProvided">
-								<value>%6</value>
-							</parameter>
-					</methodParameters>]]></xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+	<methodParameters>
+		<parameter name="samplesNo">
+			<value><integer>%1</integer></value>
+		</parameter>
+		<parameter name="intervalsNo">
+			<value><integer>%2</integer></value>
+		</parameter>
+		<parameter name="tolerance">
+			<value><real>%3</real></value>
+		</parameter>
+		<parameter id="transformToUtilities">
+			<value><boolean>%4</boolean></value>
+		</parameter>
+		<parameter id="boundariesProvided">
+			<value><boolean>%5</boolean></value>
+		</parameter>
+		<parameter id="functionShapeProvided">
+			<value><boolean>%6</boolean></value>
+		</parameter>
+	</methodParameters>
+]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="int" displayName="samplesNo">
                <constraint>
