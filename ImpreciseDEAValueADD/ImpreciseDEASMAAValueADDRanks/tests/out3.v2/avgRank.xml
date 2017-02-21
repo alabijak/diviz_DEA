@@ -3,75 +3,99 @@
     <alternativesValues>
         <alternativeValue>
             <alternativeID>h1</alternativeID>
-            <value>
-                <real>8.61</real>
-            </value>
+            <values>
+                <value>
+                    <real>8.61</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h2</alternativeID>
-            <value>
-                <real>3.44</real>
-            </value>
+            <values>
+                <value>
+                    <real>3.44</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h3</alternativeID>
-            <value>
-                <real>7.98</real>
-            </value>
+            <values>
+                <value>
+                    <real>7.98</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h4</alternativeID>
-            <value>
-                <real>10.71</real>
-            </value>
+            <values>
+                <value>
+                    <real>10.71</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h5</alternativeID>
-            <value>
-                <real>4.08</real>
-            </value>
+            <values>
+                <value>
+                    <real>4.08</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h6</alternativeID>
-            <value>
-                <real>9.45</real>
-            </value>
+            <values>
+                <value>
+                    <real>9.45</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h7</alternativeID>
-            <value>
-                <real>7.87</real>
-            </value>
+            <values>
+                <value>
+                    <real>7.87</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h8</alternativeID>
-            <value>
-                <real>8.33</real>
-            </value>
+            <values>
+                <value>
+                    <real>8.33</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h9</alternativeID>
-            <value>
-                <real>3.35</real>
-            </value>
+            <values>
+                <value>
+                    <real>3.35</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h10</alternativeID>
-            <value>
-                <real>5.9</real>
-            </value>
+            <values>
+                <value>
+                    <real>5.9</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h11</alternativeID>
-            <value>
-                <real>5.54</real>
-            </value>
+            <values>
+                <value>
+                    <real>5.54</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h12</alternativeID>
-            <value>
-                <real>2.74</real>
-            </value>
+            <values>
+                <value>
+                    <real>2.74</real>
+                </value>
+            </values>
         </alternativeValue>
     </alternativesValues>
 </ns2:XMCDA>
