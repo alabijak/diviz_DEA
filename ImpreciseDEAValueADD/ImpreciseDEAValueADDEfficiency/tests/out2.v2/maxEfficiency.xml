@@ -4,37 +4,37 @@
         <alternativeValue>
             <alternativeID>h1</alternativeID>
             <value>
-                <real>0.9757551969</real>
+                <real>0.9757916411</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h2</alternativeID>
             <value>
-                <real>0.9998471872</real>
+                <real>0.9999421771</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h3</alternativeID>
             <value>
-                <real>0.859932855</real>
+                <real>0.8599923306</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h4</alternativeID>
             <value>
-                <real>0.8213566851</real>
+                <real>0.8213836291</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h5</alternativeID>
             <value>
-                <real>0.9999353684</real>
+                <real>1.0</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h6</alternativeID>
             <value>
-                <real>0.8401999903</real>
+                <real>0.8402078852</real>
             </value>
         </alternativeValue>
         <alternativeValue>
@@ -52,13 +52,13 @@
         <alternativeValue>
             <alternativeID>h9</alternativeID>
             <value>
-                <real>0.9070184032</real>
+                <real>0.9070294785</real>
             </value>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h10</alternativeID>
             <value>
-                <real>0.9427570338</real>
+                <real>0.9427756383</real>
             </value>
         </alternativeValue>
         <alternativeValue>
@@ -70,7 +70,7 @@
         <alternativeValue>
             <alternativeID>h12</alternativeID>
             <value>
-                <real>0.9997959779</real>
+                <real>0.9998118967</real>
             </value>
         </alternativeValue>
     </alternativesValues>

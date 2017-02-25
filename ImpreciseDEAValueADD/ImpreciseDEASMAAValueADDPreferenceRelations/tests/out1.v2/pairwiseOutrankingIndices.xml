@@ -12,13 +12,13 @@
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.96</real>
+                    <real>1.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.8</real>
+                    <real>0.71</real>
                 </value>
             </performance>
             <performance>
@@ -30,43 +30,43 @@
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.91</real>
+                    <real>0.96</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.88</real>
+                    <real>0.84</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.68</real>
+                    <real>0.77</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.47</real>
+                    <real>0.46</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.72</real>
+                    <real>0.7</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.54</real>
+                    <real>0.46</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.68</real>
+                    <real>0.71</real>
                 </value>
             </performance>
             <performance>
@@ -78,49 +78,49 @@
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.9</real>
+                    <real>0.96</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.95</real>
+                    <real>0.96</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.92</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.96</real>
+                    <real>0.95</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.41</real>
+                    <real>0.42</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.77</real>
+                    <real>0.82</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.46</real>
+                    <real>0.49</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.86</real>
+                    <real>0.96</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -129,7 +129,7 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.04</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
@@ -141,7 +141,7 @@
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.1</real>
+                    <real>0.02</real>
                 </value>
             </performance>
             <performance>
@@ -153,37 +153,37 @@
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.55</real>
+                    <real>0.39</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.14</real>
+                    <real>0.09</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.02</real>
+                    <real>0.05</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.26</real>
+                    <real>0.21</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.1</real>
+                    <real>0.03</real>
                 </value>
             </performance>
             <performance>
@@ -195,55 +195,55 @@
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.39</real>
+                    <real>0.25</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.19</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.52</real>
+                    <real>0.42</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.07</real>
+                    <real>0.05</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.3</real>
+                    <real>0.2</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.2</real>
+                    <real>0.21</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.02</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.36</real>
+                    <real>0.33</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -252,13 +252,13 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.2</real>
+                    <real>0.29</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.9</real>
+                    <real>0.98</real>
                 </value>
             </performance>
             <performance>
@@ -270,37 +270,37 @@
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.31</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.94</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.83</real>
+                    <real>0.84</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.6</real>
+                    <real>0.64</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.19</real>
+                    <real>0.32</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.6</real>
+                    <real>0.56</real>
                 </value>
             </performance>
             <performance>
@@ -312,7 +312,7 @@
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.57</real>
+                    <real>0.54</real>
                 </value>
             </performance>
             <performance>
@@ -324,49 +324,49 @@
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.95</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.97</real>
+                    <real>0.98</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.75</real>
+                    <real>0.9</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.95</real>
+                    <real>0.96</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.23</real>
+                    <real>0.32</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.73</real>
+                    <real>0.81</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.3</real>
+                    <real>0.37</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.84</real>
+                    <real>0.93</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -387,7 +387,7 @@
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.71</real>
+                    <real>0.69</real>
                 </value>
             </performance>
             <performance>
@@ -405,85 +405,85 @@
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.89</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.9</real>
+                    <real>0.93</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.49</real>
+                    <real>0.46</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.72</real>
+                    <real>0.68</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.55</real>
+                    <real>0.51</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.91</real>
+                    <real>0.85</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>1.0</real>
+                    <real>0.99</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.98</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>1.0</real>
+                    <real>0.99</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.83</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.92</real>
+                    <real>0.95</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.44</real>
+                    <real>0.49</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>0.98</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.49</real>
+                    <real>0.47</real>
                 </value>
             </performance>
             <performance>
@@ -498,19 +498,19 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.09</real>
+                    <real>0.04</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.45</real>
+                    <real>0.61</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.06</real>
+                    <real>0.03</real>
                 </value>
             </performance>
             <performance>
@@ -528,25 +528,25 @@
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.03</real>
+                    <real>0.02</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.09</real>
+                    <real>0.22</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.26</real>
+                    <real>0.27</real>
                 </value>
             </performance>
             <performance>
@@ -564,43 +564,43 @@
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.22</real>
+                    <real>0.27</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.11</real>
+                    <real>0.12</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.5</real>
+                    <real>0.57</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.16</real>
+                    <real>0.3</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.24</real>
+                    <real>0.34</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.02</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.22</real>
+                    <real>0.21</real>
                 </value>
             </performance>
             <performance>
@@ -612,7 +612,7 @@
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.41</real>
+                    <real>0.5</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -621,31 +621,31 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.12</real>
+                    <real>0.16</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.86</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.17</real>
+                    <real>0.16</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.11</real>
+                    <real>0.09</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.97</real>
+                    <real>0.98</real>
                 </value>
             </performance>
             <performance>
@@ -657,13 +657,13 @@
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.45</real>
+                    <real>0.55</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.11</real>
+                    <real>0.17</real>
                 </value>
             </performance>
             <performance>
@@ -675,13 +675,13 @@
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.14</real>
+                    <real>0.08</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.32</real>
+                    <real>0.29</real>
                 </value>
             </performance>
             <performance>
@@ -693,49 +693,49 @@
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>1.0</real>
+                    <real>0.99</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.89</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.52</real>
+                    <real>0.67</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.85</real>
+                    <real>0.88</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.08</real>
+                    <real>0.2</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.62</real>
+                    <real>0.73</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.09</real>
+                    <real>0.14</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.76</real>
+                    <real>0.89</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -744,37 +744,37 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.32</real>
+                    <real>0.23</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.98</real>
+                    <real>0.95</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.4</real>
+                    <real>0.36</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.1</real>
+                    <real>0.07</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.91</real>
+                    <real>0.78</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.55</real>
+                    <real>0.45</real>
                 </value>
             </performance>
             <performance>
@@ -786,73 +786,73 @@
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.22</real>
+                    <real>0.16</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.54</real>
+                    <real>0.41</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.32</real>
+                    <real>0.2</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.44</real>
+                    <real>0.34</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.85</real>
+                    <real>0.78</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.77</real>
+                    <real>0.65</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.93</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.61</real>
+                    <real>0.65</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.79</real>
+                    <real>0.73</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.25</real>
+                    <real>0.17</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.86</real>
+                    <real>0.78</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.26</real>
+                    <real>0.17</real>
                 </value>
             </performance>
             <performance>
@@ -867,43 +867,43 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.53</real>
+                    <real>0.54</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>1.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.81</real>
+                    <real>0.68</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.51</real>
+                    <real>0.54</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>1.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.89</real>
+                    <real>0.83</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.78</real>
+                    <real>0.84</real>
                 </value>
             </performance>
             <performance>
@@ -915,13 +915,13 @@
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.72</real>
+                    <real>0.67</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.49</real>
+                    <real>0.43</real>
                 </value>
             </performance>
             <performance>
@@ -951,7 +951,7 @@
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.94</real>
+                    <real>0.99</real>
                 </value>
             </performance>
             <performance>
@@ -963,25 +963,25 @@
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.48</real>
+                    <real>0.46</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.84</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.43</real>
+                    <real>0.5</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.97</real>
+                    <real>0.99</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -990,31 +990,31 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.28</real>
+                    <real>0.3</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.74</real>
+                    <real>0.79</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.4</real>
+                    <real>0.44</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.28</real>
+                    <real>0.32</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.74</real>
+                    <real>0.73</real>
                 </value>
             </performance>
             <performance>
@@ -1026,13 +1026,13 @@
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.46</real>
+                    <real>0.59</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.28</real>
+                    <real>0.33</real>
                 </value>
             </performance>
             <performance>
@@ -1044,19 +1044,19 @@
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.36</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.39</real>
+                    <real>0.45</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.72</real>
+                    <real>0.7</real>
                 </value>
             </performance>
             <performance>
@@ -1068,43 +1068,43 @@
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.71</real>
+                    <real>0.75</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.61</real>
+                    <real>0.68</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.69</real>
+                    <real>0.7</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.17</real>
+                    <real>0.28</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.58</real>
+                    <real>0.68</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.3</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.7</real>
+                    <real>0.79</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -1113,13 +1113,13 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.46</real>
+                    <real>0.54</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.9</real>
+                    <real>0.97</real>
                 </value>
             </performance>
             <performance>
@@ -1131,7 +1131,7 @@
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.45</real>
+                    <real>0.49</real>
                 </value>
             </performance>
             <performance>
@@ -1143,25 +1143,25 @@
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.86</real>
+                    <real>0.92</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.68</real>
+                    <real>0.8</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.51</real>
+                    <real>0.57</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.71</real>
+                    <real>0.64</real>
                 </value>
             </performance>
             <performance>
@@ -1173,61 +1173,61 @@
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.68</real>
+                    <real>0.74</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>1.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>1.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.93</real>
+                    <real>0.98</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.87</real>
+                    <real>0.9</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.98</real>
+                    <real>0.99</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.38</real>
+                    <real>0.43</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.77</real>
+                    <real>0.88</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.51</real>
+                    <real>0.55</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.86</real>
+                    <real>0.95</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -1236,7 +1236,7 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.32</real>
+                    <real>0.29</real>
                 </value>
             </performance>
             <performance>
@@ -1248,13 +1248,13 @@
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.43</real>
+                    <real>0.46</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.09</real>
+                    <real>0.15</real>
                 </value>
             </performance>
             <performance>
@@ -1266,13 +1266,13 @@
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.68</real>
+                    <real>0.71</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.56</real>
+                    <real>0.66</real>
                 </value>
             </performance>
             <performance>
@@ -1284,13 +1284,13 @@
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.61</real>
+                    <real>0.55</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.32</real>
+                    <real>0.26</real>
                 </value>
             </performance>
             <performance>
@@ -1320,13 +1320,13 @@
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.75</real>
+                    <real>0.77</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.87</real>
+                    <real>0.91</real>
                 </value>
             </performance>
             <performance>
@@ -1338,19 +1338,19 @@
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.84</real>
+                    <real>0.9</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.24</real>
+                    <real>0.26</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.99</real>
+                    <real>0.98</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -1365,7 +1365,7 @@
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.61</real>
+                    <real>0.75</real>
                 </value>
             </performance>
             <performance>
@@ -1377,13 +1377,13 @@
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.78</real>
+                    <real>0.73</real>
                 </value>
             </performance>
             <performance>
@@ -1395,7 +1395,7 @@
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.15</real>
+                    <real>0.22</real>
                 </value>
             </performance>
             <performance>
@@ -1407,13 +1407,13 @@
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.28</real>
+                    <real>0.3</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
@@ -1431,37 +1431,37 @@
             <performance>
                 <criterionID>geq alt13</criterionID>
                 <value>
-                    <real>0.11</real>
+                    <real>0.04</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.58</real>
+                    <real>0.77</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.15</real>
+                    <real>0.3</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.26</real>
+                    <real>0.42</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.31</real>
                 </value>
             </performance>
             <performance>
@@ -1473,7 +1473,7 @@
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.45</real>
+                    <real>0.64</real>
                 </value>
             </performance>
         </alternativePerformances>
@@ -1482,43 +1482,43 @@
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
-                    <real>0.1</real>
+                    <real>0.04</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.71</real>
+                    <real>0.81</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
-                    <real>0.05</real>
+                    <real>0.03</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt4</criterionID>
                 <value>
-                    <real>0.02</real>
+                    <real>0.03</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt5</criterionID>
                 <value>
-                    <real>0.89</real>
+                    <real>0.88</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt6</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.23</real>
+                    <real>0.35</real>
                 </value>
             </performance>
             <performance>
@@ -1536,7 +1536,7 @@
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
@@ -1548,7 +1548,7 @@
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.89</real>
+                    <real>0.96</real>
                 </value>
             </performance>
             <performance>
@@ -1560,48 +1560,294 @@
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>0.74</real>
+                    <real>0.9</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.2</real>
+                    <real>0.4</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt16</criterionID>
                 <value>
-                    <real>0.46</real>
+                    <real>0.61</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.02</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt18</criterionID>
                 <value>
-                    <real>0.36</real>
+                    <real>0.49</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt19</criterionID>
                 <value>
-                    <real>0.01</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt20</criterionID>
                 <value>
-                    <real>0.61</real>
+                    <real>0.74</real>
                 </value>
             </performance>
         </alternativePerformances>
         <alternativePerformances>
             <alternativeID>alt14</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.58</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.43</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.03</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.09</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.25</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>0.23</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>0.1</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>0.21</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>0.26</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>0.15</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.52</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt15</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.03</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.95</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.1</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.09</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.7</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.33</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.35</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.32</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.1</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.23</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>0.7</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>0.6</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>0.79</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>0.74</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
+                    <real>0.12</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>0.52</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.77</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt16</alternativeID>
             <performance>
                 <criterionID>geq alt1</criterionID>
                 <value>
@@ -1611,13 +1857,505 @@
             <performance>
                 <criterionID>geq alt2</criterionID>
                 <value>
-                    <real>0.48</real>
+                    <real>0.8</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt3</criterionID>
                 <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.05</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.66</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.12</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.27</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.3</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.09</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>0.58</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>0.39</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>0.74</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>0.26</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
                     <real>0.03</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>0.44</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.72</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt17</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.58</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.68</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.51</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.8</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.83</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.54</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.72</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.57</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.85</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>0.88</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>0.97</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>0.94</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>0.63</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt18</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.18</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.79</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.19</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.79</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.27</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.22</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.09</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.32</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.12</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.1</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>0.69</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>0.51</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>0.85</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>0.48</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>0.56</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
+                    <real>0.06</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>0.07</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.94</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt19</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.51</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.63</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt4</criterionID>
+                <value>
+                    <real>0.53</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt5</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt6</criterionID>
+                <value>
+                    <real>0.86</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt7</criterionID>
+                <value>
+                    <real>0.83</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt8</criterionID>
+                <value>
+                    <real>0.5</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt9</criterionID>
+                <value>
+                    <real>0.7</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt10</criterionID>
+                <value>
+                    <real>0.45</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt11</criterionID>
+                <value>
+                    <real>0.74</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt12</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt13</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt14</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt15</criterionID>
+                <value>
+                    <real>0.96</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt16</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt17</criterionID>
+                <value>
+                    <real>0.37</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt18</criterionID>
+                <value>
+                    <real>0.93</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt19</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt20</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>alt20</alternativeID>
+            <performance>
+                <criterionID>geq alt1</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt2</criterionID>
+                <value>
+                    <real>0.67</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq alt3</criterionID>
+                <value>
+                    <real>0.07</real>
                 </value>
             </performance>
             <performance>
@@ -1641,37 +2379,37 @@
             <performance>
                 <criterionID>geq alt7</criterionID>
                 <value>
-                    <real>0.07</real>
+                    <real>0.0</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt8</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.01</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt9</criterionID>
                 <value>
-                    <real>0.29</real>
+                    <real>0.21</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt10</criterionID>
                 <value>
-                    <real>0.07</real>
+                    <real>0.05</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt11</criterionID>
                 <value>
-                    <real>0.0</real>
+                    <real>0.02</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt12</criterionID>
                 <value>
-                    <real>0.42</real>
+                    <real>0.36</real>
                 </value>
             </performance>
             <performance>
@@ -1683,13 +2421,13 @@
             <performance>
                 <criterionID>geq alt14</criterionID>
                 <value>
-                    <real>1.0</real>
+                    <real>0.48</real>
                 </value>
             </performance>
             <performance>
                 <criterionID>geq alt15</criterionID>
                 <value>
-                    <real>0.13</real>
+                    <real>0.23</real>
                 </value>
             </performance>
             <performance>
@@ -1701,757 +2439,19 @@
             <performance>
                 <criterionID>geq alt17</criterionID>
                 <value>
-                    <real>0.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.15</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
                     <real>0.01</real>
                 </value>
             </performance>
             <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.38</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt15</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.08</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>0.93</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.25</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
-                <value>
-                    <real>0.17</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.84</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.48</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.39</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
+                <criterionID>geq alt18</criterionID>
                 <value>
                     <real>0.06</real>
                 </value>
             </performance>
             <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.39</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.13</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.25</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>0.85</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.8</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>0.87</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>0.86</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>0.11</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.65</real>
-                </value>
-            </performance>
-            <performance>
                 <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>0.09</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.77</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt16</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.04</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>0.7</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.05</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
-                <value>
-                    <real>0.08</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.76</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.15</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.21</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
-                <value>
-                    <real>0.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.31</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.02</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.13</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>0.74</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.54</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>0.72</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>0.14</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>0.05</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.39</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>0.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.62</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt17</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.59</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.77</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
-                <value>
-                    <real>0.56</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.99</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.92</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.75</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
-                <value>
-                    <real>0.52</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.83</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.62</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.85</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.99</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>0.89</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>0.95</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.87</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>0.62</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.98</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt18</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.23</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>0.8</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.27</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
                 <value>
                     <real>0.01</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.78</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.38</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.14</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
-                <value>
-                    <real>0.16</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.42</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.23</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.16</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>0.71</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.64</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>0.85</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>0.35</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>0.61</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>0.13</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>0.2</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.97</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt19</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.54</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>0.98</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.7</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
-                <value>
-                    <real>0.51</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.98</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.91</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.74</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
-                <value>
-                    <real>0.57</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.71</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.49</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.76</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.99</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>0.99</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>0.91</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>0.38</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.8</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>1.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt20</criterionID>
-                <value>
-                    <real>0.92</real>
-                </value>
-            </performance>
-        </alternativePerformances>
-        <alternativePerformances>
-            <alternativeID>alt20</alternativeID>
-            <performance>
-                <criterionID>geq alt1</criterionID>
-                <value>
-                    <real>0.14</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt2</criterionID>
-                <value>
-                    <real>0.64</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt3</criterionID>
-                <value>
-                    <real>0.16</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt4</criterionID>
-                <value>
-                    <real>0.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt5</criterionID>
-                <value>
-                    <real>0.59</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt6</criterionID>
-                <value>
-                    <real>0.24</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt7</criterionID>
-                <value>
-                    <real>0.0</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt8</criterionID>
-                <value>
-                    <real>0.03</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt9</criterionID>
-                <value>
-                    <real>0.3</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt10</criterionID>
-                <value>
-                    <real>0.14</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt11</criterionID>
-                <value>
-                    <real>0.01</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt12</criterionID>
-                <value>
-                    <real>0.55</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt13</criterionID>
-                <value>
-                    <real>0.39</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt14</criterionID>
-                <value>
-                    <real>0.62</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt15</criterionID>
-                <value>
-                    <real>0.23</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt16</criterionID>
-                <value>
-                    <real>0.38</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt17</criterionID>
-                <value>
-                    <real>0.02</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt18</criterionID>
-                <value>
-                    <real>0.03</real>
-                </value>
-            </performance>
-            <performance>
-                <criterionID>geq alt19</criterionID>
-                <value>
-                    <real>0.08</real>
                 </value>
             </performance>
             <performance>

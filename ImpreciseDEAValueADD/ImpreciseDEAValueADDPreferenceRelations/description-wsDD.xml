@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
-   <documentation>
-      <description>Computes efficiency scores for the given DMUs (alternatives)  using Additive Data Envelopment Analysis Model with imprecise information.</description>
-      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
-      <reference>G. Jahanshahloo, F. H. Lotfi, M. R. Malkhalifeh, and M. A. Namin. A generalized model for data envelopment analysis with interval data. 2009.</reference>
-      <reference>MC. Gouveia et al. Super-efficiency and stability intervals in additive DEA. 2013</reference>
-   </documentation>
-   <parameters>
-      <input id="units" name="units" displayName="units" isoptional="0">
-         <documentation>
-            <description>A list of alternatives (DMUs).</description>
-         </documentation>
-         <xmcda tag="alternatives"><![CDATA[<alternatives>
+  <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
+  <documentation>
+    <description>Computes efficiency scores for the given DMUs (alternatives)  using Additive Data Envelopment Analysis Model with imprecise information.</description>
+    <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+    <reference>G. Jahanshahloo, F. H. Lotfi, M. R. Malkhalifeh, and M. A. Namin. A generalized model for data envelopment analysis with interval data. 2009.</reference>
+    <reference>MC. Gouveia et al. Super-efficiency and stability intervals in additive DEA. 2013</reference>
+  </documentation>
+  <parameters>
+    <input id="units" name="units" displayName="units" isoptional="0">
+      <documentation>
+        <description>A list of alternatives (DMUs).</description>
+      </documentation>
+      <xmcda tag="alternatives">
+        <![CDATA[<alternatives>
                         <alternative>
                             [...]
                         </alternative>
                         [...]
-                    </alternatives>]]></xmcda>
-      </input>
-      <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
-         <documentation>
-            <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
-         </documentation>
-         <xmcda tag="criteria"><![CDATA[<criteria>
+                    </alternatives>]]>
+      </xmcda>
+    </input>
+    <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+      <documentation>
+        <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
+      </documentation>
+      <xmcda tag="criteria">
+        <![CDATA[<criteria>
                         <criterion>
 							<scale>								
                                 [...]
@@ -31,13 +34,15 @@
                             [...]
                         </criterion>
                         [...]
-                    </criteria>]]></xmcda>
-         </input>
-      <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
-         <documentation>
-            <description>A list of alternatives (DMUs) minimal performances (or exact performances if intervals should be created by tolerance).</description>
-         </documentation>
-         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+                    </criteria>]]>
+      </xmcda>
+    </input>
+    <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+      <documentation>
+        <description>A list of alternatives (DMUs) minimal performances (or exact performances if intervals should be created by tolerance).</description>
+      </documentation>
+      <xmcda tag="performanceTable">
+        <![CDATA[<performanceTable>
 						<alternativePerformances>
 							<alternativeID> [...] </alternativeID>
 							<performance>
@@ -49,13 +54,15 @@
 							[...]
 						</alternativePerformances>
 						[...]
-					</performanceTable>]]></xmcda>
-      </input>
-	  <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="maxPerformanceTable" isoptional="1">
-         <documentation>
-            <description>A list of alternatives (DMUs) maximal performances.</description>
-         </documentation>
-         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+					</performanceTable>]]>
+      </xmcda>
+    </input>
+    <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="maxPerformanceTable" isoptional="1">
+      <documentation>
+        <description>A list of alternatives (DMUs) maximal performances.</description>
+      </documentation>
+      <xmcda tag="performanceTable">
+        <![CDATA[<performanceTable>
 						<alternativePerformances>
 							<alternativeID> [...] </alternativeID>
 							<performance>
@@ -67,13 +74,15 @@
 							[...]
 						</alternativePerformances>
 						[...]
-					</performanceTable>]]></xmcda>
-      </input>
-      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
-         <documentation>
-            <description>A list of criteria linear constraints.</description>
-         </documentation>
-         <xmcda tag="criteriaLinearConstraints"><![CDATA[<criteriaLinearConstraints>
+					</performanceTable>]]>
+      </xmcda>
+    </input>
+    <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+      <documentation>
+        <description>A list of criteria linear constraints.</description>
+      </documentation>
+      <xmcda tag="criteriaLinearConstraints">
+        <![CDATA[<criteriaLinearConstraints>
 						<constraint>
 							<element>
 								<criterionID> [...] </criterionID>
@@ -88,18 +97,21 @@
 							</rhs>
 						</constraint>
 						[...]
-					</criteriaLinearConstraints>]]></xmcda>
-      </input>
-	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
-          <documentation>
-            <description>Represents method parameters. 
-            "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
-            "transformToUtilities" means if data should be tranformed into values from range [0-1],
-            "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
-            "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
-            </description>
-         </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
+					</criteriaLinearConstraints>]]>
+      </xmcda>
+    </input>
+    <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <documentation>
+        <description>
+          Represents method parameters.
+          "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
+          "transformToUtilities" means if data should be tranformed into values from range [0-1],
+          "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
+          "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
+        </description>
+      </documentation>
+      <xmcda tag="methodParameters">
+        <![CDATA[<methodParameters>
 							<parameter id="tolerance">
 								<value>%1</value>
 							</parameter>
@@ -112,59 +124,80 @@
                             <parameter id="functionShapeProvided">
 								<value>%4</value>
 							</parameter>
-					</methodParameters>]]></xmcda>
-         <gui status="preferGUI">
-            <entry id="%1" type="float" displayName="tolerance">
-               <constraint>
-                  <description>The value should be non-negative.</description>
-                  <code><![CDATA[%1 >= 0]]></code>
-               </constraint>
-               <defaultValue>0.00</defaultValue>
-            </entry>
-            <entry id="%2" type="boolean" displayName="transformToUtilities">
-               <defaultValue>true</defaultValue>
-            </entry>
-            <entry id="%3" type="boolean" displayName="boundariesProvided">
-               <defaultValue>false</defaultValue>
-            </entry>
-            <entry id="%4" type="boolean" displayName="functionShapeProvided">
-               <defaultValue>false</defaultValue>
-            </entry>
-         </gui>
-      </input>
-      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
-         <documentation>
-            <description>A list of alternatives with computed minimum efficiency scores.</description>
-         </documentation>
-         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
-						<alternativeValue>
-						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
-						</alternativeValue>
+					</methodParameters>]]>
+      </xmcda>
+      <gui status="preferGUI">
+        <entry id="%1" type="float" displayName="tolerance">
+          <constraint>
+            <description>The value should be non-negative.</description>
+            <code><![CDATA[%1 >= 0]]></code>
+          </constraint>
+          <defaultValue>0.00</defaultValue>
+        </entry>
+        <entry id="%2" type="boolean" displayName="transformToUtilities">
+          <defaultValue>true</defaultValue>
+        </entry>
+        <entry id="%3" type="boolean" displayName="boundariesProvided">
+          <defaultValue>false</defaultValue>
+        </entry>
+        <entry id="%4" type="boolean" displayName="functionShapeProvided">
+          <defaultValue>false</defaultValue>
+        </entry>
+      </gui>
+    </input>
+    <output id="necessaryDominance" name="necessaryDominance" displayName="necessaryDominance">
+      <documentation>
+        <description>A list of pairs of pairs of DMU related with necessary preference relation.</description>
+      </documentation>
+      <xmcda tag="alternativesComparisons">
+        <![CDATA[<alternativesComparisons mcdaConcept="bestRank">
+						<pairs>
+                            <pair>
+                                <initial>
+                                  <alternativeID>[...]</alternativeID>
+                                </initial>
+                                <terminal>
+                                  <alternativeID>[...]</alternativeID>
+                                </terminal>
+                                <value>
+                                  <real>1</real>
+                                </value>
+                            </pair>
 						[...]
-					</alternativesValues>]]></xmcda>
-      </output>
-	  <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
-         <documentation>
-            <description>A list of alternatives with computed maximum efficiency scores.</description>
-         </documentation>
-         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
-						<alternativeValue>
-						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
-						</alternativeValue>
+                        </pairs>
+                        [...]
+					</alternativesComparisons>]]>
+      </xmcda>
+    </output>
+    <output id="possibleDominance" name="possibleDominance" displayName="possibleDominance">
+      <documentation>
+        <description>A list of pairs of pairs of DMU related with possible preference relation.</description>
+      </documentation>
+      <xmcda tag="alternativesComparisons">
+        <![CDATA[<alternativesComparisons mcdaConcept="bestRank">
+						<pairs>
+                            <pair>
+                                <initial>
+                                  <alternativeID>[...]</alternativeID>
+                                </initial>
+                                <terminal>
+                                  <alternativeID>[...]</alternativeID>
+                                </terminal>
+                                <value>
+                                  <real>1</real>
+                                </value>
+                            </pair>
 						[...]
-					</alternativesValues>]]></xmcda>
-      </output>
-	  <output id="messages" name="messages" displayName="messages">
-         <documentation>
-            <description>A list of messages generated by the algorithm.</description>
-         </documentation>
-         <xmcda tag="methodMessages" />
-      </output>
-   </parameters>
+                        </pairs>
+                        [...]
+					</alternativesComparisons>]]>
+      </xmcda>
+    </output>
+    <output id="messages" name="messages" displayName="messages">
+      <documentation>
+        <description>A list of messages generated by the algorithm.</description>
+      </documentation>
+      <xmcda tag="methodMessages" />
+    </output>
+  </parameters>
 </program_description>

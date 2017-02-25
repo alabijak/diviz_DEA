@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:XMCDA xmlns:ns2="http://www.decision-deck.org/2012/XMCDA-2.2.1">
-    <methodMessages/>
+    <methodMessages>
+        <message>
+            <text>OK</text>
+        </message>
+    </methodMessages>
 </ns2:XMCDA>

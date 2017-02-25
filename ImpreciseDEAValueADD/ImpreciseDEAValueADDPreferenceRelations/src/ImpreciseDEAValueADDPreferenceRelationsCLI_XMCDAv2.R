@@ -190,7 +190,7 @@ for (i in 1:length(xResults)){
 
 tmp <- handleException(
   function() return(
-    putProgramExecutionResult(xmcdaMessages, infos="")
+    putProgramExecutionResult(xmcdaMessages, infos="OK")
   ),
   xmcdaMessages
 )
