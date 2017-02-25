@@ -3,123 +3,163 @@
     <alternativesValues>
         <alternativeValue>
             <alternativeID>alt1</alternativeID>
-            <value>
-                <real>0.051064537460975126</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.06846258984989004</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt2</alternativeID>
-            <value>
-                <real>0.047543914038512464</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.058134653559262686</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt3</alternativeID>
-            <value>
-                <real>0.0299744661579311</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.03832170623712788</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt4</alternativeID>
-            <value>
-                <real>0.11227793684628824</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.1509886881949453</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt5</alternativeID>
-            <value>
-                <real>0.0313518479719693</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.04065942816329153</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt6</alternativeID>
-            <value>
-                <real>0.03781158420487299</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.05108538990301648</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt7</alternativeID>
-            <value>
-                <real>0.04142004066385953</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.03203728132437492</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt8</alternativeID>
-            <value>
-                <real>0.11537957566819623</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.12019990436105261</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt9</alternativeID>
-            <value>
-                <real>0.008515473216444913</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.007198878158092773</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt10</alternativeID>
-            <value>
-                <real>0.08833851997433627</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.093666366506179</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt11</alternativeID>
-            <value>
-                <real>0.9721286520018799</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.9830097562205424</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt12</alternativeID>
-            <value>
-                <real>0.021131959275232422</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.02875413698933887</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt13</alternativeID>
-            <value>
-                <real>0.022801720843531905</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.030195546385569535</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt14</alternativeID>
-            <value>
-                <real>0.017061869986624813</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.024203867368628867</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt15</alternativeID>
-            <value>
-                <real>0.025169515482968183</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.02627155470658446</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt16</alternativeID>
-            <value>
-                <real>0.020761949278977784</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.025184972643514148</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt17</alternativeID>
-            <value>
-                <real>0.2166793699172075</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.20423058023177718</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt18</alternativeID>
-            <value>
-                <real>0.015092113311749115</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.025040216382871364</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt19</alternativeID>
-            <value>
-                <real>0.13124470000872715</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.13425570959286584</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt20</alternativeID>
-            <value>
-                <real>0.014765031306324767</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.016654329789934953</real>
+                </value>
+            </values>
         </alternativeValue>
     </alternativesValues>
 </ns2:XMCDA>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-  <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
+<program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
   <documentation>
     <description>Computes efficiency scores for the given DMUs (alternatives)  using Additive Data Envelopment Analysis Model with imprecise information.</description>
     <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
@@ -28,7 +28,7 @@
       <xmcda tag="criteria">
         <![CDATA[<criteria>
                         <criterion>
-							<scale>								
+							<scale>
                                 [...]
 							</scale>
                             [...]
@@ -100,7 +100,7 @@
 					</criteriaLinearConstraints>]]>
       </xmcda>
     </input>
-    <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+    <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="0">
       <documentation>
         <description>
           Represents method parameters.
@@ -110,22 +110,21 @@
           "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
         </description>
       </documentation>
-      <xmcda tag="methodParameters">
-        <![CDATA[<methodParameters>
-							<parameter id="tolerance">
-								<value>%1</value>
-							</parameter>
-                            <parameter id="transformToUtilities">
-								<value>%2</value>
-							</parameter>
-                            <parameter id="boundariesProvided">
-								<value>%3</value>
-							</parameter>
-                            <parameter id="functionShapeProvided">
-								<value>%4</value>
-							</parameter>
-					</methodParameters>]]>
-      </xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+	<methodParameters>
+		<parameter id="tolerance">
+			<value><real>%1</real></value>
+		</parameter>
+		<parameter id="transformToUtilities">
+			<value><boolean>%2</boolean></value>
+		</parameter>
+		<parameter id="boundariesProvided">
+			<value><boolean>%3</boolean></value>
+		</parameter>
+		<parameter id="functionShapeProvided">
+			<value><boolean>%4</boolean></value>
+		</parameter>
+]]></xmcda>
       <gui status="preferGUI">
         <entry id="%1" type="float" displayName="tolerance">
           <constraint>

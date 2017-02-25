@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEAValueADDEfficiency" version="1.0" />
+   <program provider="PUT" name="ImpreciseDEASMAAValueADDPreferenceRelations" displayName="ImpreciseDEASMAAValueADDPreferenceRelations" version="1.0" />
    <documentation>
       <description>Determines dominance relations for the given DMUs (alternatives) using SMAA-D method and Additive Data Envelopment Analysis Model with imprecise data. For given number of samples  returns a matrix with alternatives in each row and column. Single cell indicates how many samples of alternative in a row dominates alternative in a column.</description>
       <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
@@ -23,7 +23,7 @@
          </documentation>
          <xmcda tag="criteria"><![CDATA[<criteria>
                         <criterion>
-							<scale>								
+							<scale>
                                 [...]
 							</scale>
                             [...]
@@ -90,7 +90,7 @@
       </input>
 	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
          <documentation>
-            <description>Represents method parameters. 
+            <description>Represents method parameters.
             "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
             "transformToUtilities" means if data should be tranformed into values from range [0-1],
             "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
@@ -98,23 +98,25 @@
             "samplesNo" determines number of samples used to calculate results.
             </description>
          </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="samplesNo">
-								<value><integer>%1</integer></value>
-							</parameter>
-                            <parameter name="tolerance">
-								<value><real>%2</real></value>
-							</parameter>
-                            <parameter id="transformToUtilities">
-								<value>%3</value>
-							</parameter>
-                            <parameter id="boundariesProvided">
-								<value>%4</value>
-							</parameter>
-                            <parameter id="functionShapeProvided">
-								<value>%5</value>
-							</parameter>
-					</methodParameters>]]></xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+	<methodParameters>
+		<parameter name="samplesNo">
+			<value><integer>%1</integer></value>
+		</parameter>
+		<parameter name="tolerance">
+			<value><real>%2</real></value>
+		</parameter>
+		<parameter id="transformToUtilities">
+			<value><boolean>%3</boolean></value>
+		</parameter>
+		<parameter id="boundariesProvided">
+			<value><boolean>%4</boolean></value>
+		</parameter>
+		<parameter id="functionShapeProvided">
+			<value><boolean>%5</boolean></value>
+		</parameter>
+	</methodParameters>
+]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="int" displayName="samplesNo">
                <constraint>

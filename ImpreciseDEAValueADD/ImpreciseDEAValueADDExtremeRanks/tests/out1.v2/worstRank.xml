@@ -3,123 +3,163 @@
     <alternativesValues>
         <alternativeValue>
             <alternativeID>alt1</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt2</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt3</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt4</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt5</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt6</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt7</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt8</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt9</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt10</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt11</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt12</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt13</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt14</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt15</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt16</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt17</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt18</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt19</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>alt20</alternativeID>
-            <value>
-                <real>20.0</real>
-            </value>
+            <values>
+                <value>
+                    <real>20.0</real>
+                </value>
+            </values>
         </alternativeValue>
     </alternativesValues>
 </ns2:XMCDA>
