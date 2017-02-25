@@ -211,9 +211,9 @@ createMonotonicityConstraints = function(model, subjectDmuIdx, dmuData)
     criteriumValues[2,] <- dmuData$data[,factor]
     criteriumValues<- criteriumValues[,order(criteriumValues[2,])]
     
-    #constraint <-  array(0, dim = varCount)
-    #constraint[dmuData$inputCount + dmuData$outputCount + criteriumValues[1,1]] <- 1
-    #add.constraint(model, constraint, ">=", 0.01)
+    constraint <-  array(0, dim = varCount)
+    constraint[dmuData$inputCount + dmuData$outputCount + criteriumValues[1,1]] <- 1
+    add.constraint(model, constraint, ">=", 0.01)
     
     for(i in 2:dmuCount)
     {
