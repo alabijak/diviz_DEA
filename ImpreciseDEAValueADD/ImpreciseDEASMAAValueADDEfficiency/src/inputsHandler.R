@@ -82,8 +82,8 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) { # TODO
         {
           samplesNo <- param$getValues()$get(as.integer(0))$getValue()
         }
-        if((!is.null(param$id()) && param$id() == "intervalsNo") || 
-           (!is.null(param$name()) && param$name() == "intervalsNo"))
+        if((!is.null(param$id()) && param$id() == "intervalsNb") || 
+           (!is.null(param$name()) && param$name() == "intervalsNb"))
         {
           intervalsNo <- param$getValues()$get(as.integer(0))$getValue()
         }

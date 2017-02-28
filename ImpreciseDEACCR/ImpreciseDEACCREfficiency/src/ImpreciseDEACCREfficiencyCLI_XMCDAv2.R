@@ -26,6 +26,8 @@ script.dir <- function() {
 # load the R files in the script's directory
 script.wd <- setwd(script.dir())
 
+#script.wd <- "D:\\Studia\\doktorat\\DEA-diviz\\ImpreciseDEACCR\\ImpreciseDEACCREfficiency\\src"
+
 source("utils.R")
 source("inputsHandler.R")
 source("outputsHandler.R")
@@ -38,6 +40,9 @@ if (!is.null(script.wd)) setwd(script.wd)
 
 inDirectory <- commandArgs(trailingOnly=TRUE)[1]
 outDirectory <- commandArgs(trailingOnly=TRUE)[2]
+
+#inDirectory <- "D:\\Studia\\doktorat\\DEA-diviz\\ImpreciseDEACCR\\ImpreciseDEACCREfficiency\\tests\\in2.v2"
+#outDirectory <- "D:\\Studia\\doktorat\\DEA-diviz\\ImpreciseDEACCR\\ImpreciseDEACCREfficiency\\tests\\in2.v2"
 
 # filenames
 

@@ -3,21 +3,21 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
   <programParameters>
-    <parameter name="tolerance">
+    <parameter id="tolerance">
       <values>
         <value>
           <real>0.05</real>
         </value>
       </values>
     </parameter>
-    <parameter name="samplesNo">
+    <parameter id="samplesNb">
       <values>
         <value>
           <real>1000</real>
         </value>
       </values>
     </parameter>
-    <parameter name="intervalsNo">
+    <parameter id="intervalsNb">
       <values>
         <value>
           <real>15</real>

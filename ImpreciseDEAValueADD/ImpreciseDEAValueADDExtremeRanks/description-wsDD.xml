@@ -21,7 +21,7 @@
                     </alternatives>]]>
       </xmcda>
     </input>
-    <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+    <input id="inputsOutputs" name="inputsOutputs" displayName="inputs/outputs" isoptional="0">
       <documentation>
         <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
       </documentation>
@@ -37,7 +37,7 @@
                     </criteria>]]>
       </xmcda>
     </input>
-    <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+    <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
       <documentation>
         <description>A list of alternatives (DMUs) minimal performances (or exact performances if intervals should be created by tolerance).</description>
       </documentation>
@@ -57,7 +57,7 @@
 					</performanceTable>]]>
       </xmcda>
     </input>
-    <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="maxPerformanceTable" isoptional="1">
+    <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="max performance" isoptional="1">
       <documentation>
         <description>A list of alternatives (DMUs) maximal performances.</description>
       </documentation>
@@ -77,7 +77,7 @@
 					</performanceTable>]]>
       </xmcda>
     </input>
-    <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+    <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
       <documentation>
         <description>A list of criteria linear constraints.</description>
       </documentation>
@@ -100,7 +100,7 @@
 					</criteriaLinearConstraints>]]>
       </xmcda>
     </input>
-    <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="0">
+    <input id="methodParameters" name="methodParameters" displayName="method parameters">
       <documentation>
         <description>
           Represents method parameters.
@@ -110,22 +110,22 @@
           "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
         </description>
       </documentation>
-<xmcda tag="methodParameters">
-        <![CDATA[<methodParameters>
-		<parameter id="tolerance">
-			<value><real>%1</real></value>
-		</parameter>
-		<parameter id="transformToUtilities">
-			<value><boolean>%2</boolean></value>
-		</parameter>
-		<parameter id="boundariesProvided">
-			<value><boolean>%3</boolean></value>
-		</parameter>
-		<parameter id="functionShapeProvided">
-			<value><boolean>%4</boolean></value>
-		</parameter>
-	</methodParameters>
-]]></xmcda>
+        <xmcda tag="methodParameters">
+                <![CDATA[<methodParameters>
+                <parameter id="tolerance">
+                    <value><real>%1</real></value>
+                </parameter>
+                <parameter id="transformToUtilities">
+                    <value><boolean>%2</boolean></value>
+                </parameter>
+                <parameter id="boundariesProvided">
+                    <value><boolean>%3</boolean></value>
+                </parameter>
+                <parameter id="functionShapeProvided">
+                    <value><boolean>%4</boolean></value>
+                </parameter>
+            </methodParameters>
+        ]]></xmcda>
       <gui status="preferGUI">
         <entry id="%1" type="float" displayName="tolerance">
           <constraint>
@@ -134,18 +134,18 @@
           </constraint>
           <defaultValue>0.00</defaultValue>
         </entry>
-        <entry id="%2" type="boolean" displayName="transformToUtilities">
+        <entry id="%2" type="boolean" displayName="transform to utilities">
           <defaultValue>true</defaultValue>
         </entry>
-        <entry id="%3" type="boolean" displayName="boundariesProvided">
+        <entry id="%3" type="boolean" displayName="boundaries provided">
           <defaultValue>false</defaultValue>
         </entry>
-        <entry id="%4" type="boolean" displayName="functionShapeProvided">
+        <entry id="%4" type="boolean" displayName="function shapes provided">
           <defaultValue>false</defaultValue>
         </entry>
       </gui>
     </input>
-    <output id="bestRank" name="bestRank" displayName="bestRank">
+    <output id="bestRank" name="bestRank" displayName="best rank">
       <documentation>
         <description>A list of alternatives with computed best rank for each of them.</description>
       </documentation>
@@ -161,7 +161,7 @@
 					</alternativesValues>]]>
       </xmcda>
     </output>
-    <output id="worstRank" name="worstRank" displayName="worstRank">
+    <output id="worstRank" name="worstRank" displayName="worst rank">
       <documentation>
         <description>A list of alternatives with computed worst rank for each of them.</description>
       </documentation>

@@ -17,7 +17,7 @@
                         [...]
                     </alternatives>]]></xmcda>
       </input>
-      <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+      <input id="inputsOutputs" name="inputsOutputs" displayName="inputs/outputs" isoptional="0">
          <documentation>
             <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
          </documentation>
@@ -35,7 +35,7 @@
                         [...]
                     </criteria>]]></xmcda>
       </input>
-      <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+      <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
          <documentation>
             <description>A list of alternatives (DMUs) performances.</description>
          </documentation>
@@ -53,7 +53,7 @@
 						[...]
 					</performanceTable>]]></xmcda>
       </input>
-      <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="maxPerformanceTable" isoptional="1">
+      <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="max performance" isoptional="1">
          <documentation>
             <description>A list of alternatives (DMUs) maximal performances.</description>
          </documentation>
@@ -71,7 +71,7 @@
 						[...]
 					</performanceTable>]]></xmcda>
       </input>
-      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
          <documentation>
             <description>A list of criteria linear constraints.</description>
          </documentation>
@@ -92,20 +92,20 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-      <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+      <input id="methodParameters" name="methodParameters" displayName="method parameters">
          <documentation>
-            <description>"samplesNo" represents the number of samples to generate.</description>
+            <description>"samplesNb" represents the number of samples to generate.</description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter name="samplesNo">
+							<parameter id="samplesNb">
 								<value><integer>%1</integer></value>
 							</parameter>
-                            <parameter name="tolerance">
+                            <parameter id="tolerance">
 								<value><real>%2</real></value>
 							</parameter>
 					</methodParameters>]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="samplesNo">
+            <entry id="%1" type="int" displayName="number of samples">
                <constraint>
                   <description>The value should be a positive integer.</description>
                   <code><![CDATA[%1 > 0]]></code>
@@ -121,7 +121,7 @@
             </entry>
          </gui>
       </input>
-      <output id="rankAcceptabilityIndices" name="rankAcceptabilityIndices" displayName="rankAcceptabilityIndices">
+      <output id="rankAcceptabilityIndices" name="rankAcceptabilityIndices" displayName="rank acceptability indices">
          <documentation>
             <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain ranking, and a value representing ratio of samples attaining this ranking.</description>
          </documentation>
@@ -138,7 +138,7 @@
 						</alternativePerformances>
 					</performanceTable>]]></xmcda>
       </output>
-      <output id="avgRank" name="avgRank" displayName="avgRank">
+      <output id="avgRank" name="avgRank" displayName="avgerage rank">
          <documentation>
             <description>A list of alternatives with average rank (obtained for given sample).</description>
          </documentation>

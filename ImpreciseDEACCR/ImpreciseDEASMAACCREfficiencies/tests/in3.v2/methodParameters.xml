@@ -3,17 +3,17 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
   <methodParameters>
-    <parameter name="tolerance">
+    <parameter id="tolerance">
         <value>
           <real>0.05</real>
         </value>
     </parameter>
-    <parameter name="samplesNo">
+    <parameter id="samplesNb">
         <value>
           <real>1000</real>
         </value>
     </parameter>
-    <parameter name="intervalsNo">
+    <parameter id="intervalsNb">
         <value>
           <real>15</real>
         </value>

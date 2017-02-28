@@ -46,18 +46,12 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) { # TODO
   parameters <- as.list(xmcdaData$programParametersList)
   if(length(parameters) > 0)
   {
-      for(i in 1:length(parameters)) {
-        for(param in as.list(parameters[[i]]))
-        {
-          
-          if((!is.null(param$id()) && param$id() == "tolerance") || 
-             (!is.null(param$name()) && param$name() == "tolerance"))
-          {
-            tolerance <- param$getValues()$get(as.integer(0))$getValue()
-          }
-        }
-      }
+    parameters <- parameters[[1]]
+    toleranceParam <- parameters$getParameter("tolerance")
+    if(!is.null(toleranceParam))
+      tolerance <-toleranceParam$getValues()$get(as.integer(0))$getValue()
   }  
+  
   if(is.null(maxPerformance))
   { 
     maxPerformance = array(dim=c(nrow(performance), ncol(performance)))

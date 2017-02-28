@@ -17,7 +17,7 @@
                         [...]
                     </alternatives>]]></xmcda>
       </input>
-      <input id="inputsOutputs" name="inputsOutputs" displayName="inputsOutputs" isoptional="0">
+      <input id="inputsOutputs" name="inputsOutputs" displayName="inputs/outputs" isoptional="0">
          <documentation>
             <description>A list of criteria with specified preference direction. List has to contains at least one criterion that will be minimized (input) and at least one criterion that will be maximized (output).</description>
          </documentation>
@@ -31,7 +31,7 @@
                         [...]
                     </criteria>]]></xmcda>
          </input>
-      <input id="performanceTable" name="performanceTable" displayName="performanceTable" isoptional="0">
+      <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
          <documentation>
             <description>A list of alternatives (DMUs) minimal performances (or exact performances if intervals should be created by tolerance).</description>
          </documentation>
@@ -49,7 +49,7 @@
 						[...]
 					</performanceTable>]]></xmcda>
       </input>
-	  <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="maxPerformanceTable" isoptional="1">
+	  <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="max performance" isoptional="1">
          <documentation>
             <description>A list of alternatives (DMUs) maximal performances.</description>
          </documentation>
@@ -67,7 +67,7 @@
 						[...]
 					</performanceTable>]]></xmcda>
       </input>
-      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weightsLinearConstraints" isoptional="defaultFalse">
+      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
          <documentation>
             <description>A list of criteria linear constraints.</description>
          </documentation>
@@ -88,26 +88,26 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-	  <input id="methodParameters" name="methodParameters" displayName="methodParameters" isoptional="defaultFalse">
+	  <input id="methodParameters" name="methodParameters" displayName="method parameters">
          <documentation>
             <description>Represents method parameters.
             "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
             "transformToUtilities" means if data should be tranformed into values from range [0-1],
             "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor,
             "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor,
-            "samplesNo" determines number of samples used to calculate results,
-            "intervalsNo" determines number of buckets, for which the efficiency scores are divided.
+            "samplesNb" determines number of samples used to calculate results,
+            "intervalsNb" determines number of buckets, for which the efficiency scores are divided.
             </description>
          </documentation>
          <xmcda tag="methodParameters"><![CDATA[
 	<methodParameters>
-		<parameter name="samplesNo">
+		<parameter id="samplesNb">
 			<value><integer>%1</integer></value>
 		</parameter>
-		<parameter name="intervalsNo">
+		<parameter id="intervalsNb">
 			<value><integer>%2</integer></value>
 		</parameter>
-		<parameter name="tolerance">
+		<parameter id="tolerance">
 			<value><real>%3</real></value>
 		</parameter>
 		<parameter id="transformToUtilities">
@@ -122,14 +122,14 @@
 	</methodParameters>
 ]]></xmcda>
          <gui status="preferGUI">
-            <entry id="%1" type="int" displayName="samplesNo">
+            <entry id="%1" type="int" displayName="number of samples">
                <constraint>
                   <description>The value should be a positive integer.</description>
                   <code><![CDATA[%1 > 0]]></code>
                </constraint>
                <defaultValue>100</defaultValue>
             </entry>
-            <entry id="%2" type="int" displayName="intervalsNo">
+            <entry id="%2" type="int" displayName="number of intervals">
                <constraint>
                   <description>The value should be a positive integer.</description>
                   <code><![CDATA[%2 > 0]]></code>
@@ -143,18 +143,18 @@
                </constraint>
                <defaultValue>0.0</defaultValue>
             </entry>
-            <entry id="%4" type="boolean" displayName="transformToUtilities">
+            <entry id="%4" type="boolean" displayName="transform to utilities">
                <defaultValue>true</defaultValue>
             </entry>
-            <entry id="%5" type="boolean" displayName="boundariesProvided">
+            <entry id="%5" type="boolean" displayName="boundaries provided">
                <defaultValue>false</defaultValue>
             </entry>
-            <entry id="%6" type="boolean" displayName="functionShapeProvided">
+            <entry id="%6" type="boolean" displayName="function shapes provided">
                <defaultValue>false</defaultValue>
             </entry>
          </gui>
       </input>
-      <output id="efficiencyDistribution" name="efficiencyDistribution" displayName="efficiencyDistribution">
+      <output id="efficiencyDistribution" name="efficiencyDistribution" displayName="efficiency distribution">
          <documentation>
             <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain bucket, and a value representing the ratio of efficiency scores in this bucket.</description>
          </documentation>
@@ -171,7 +171,7 @@
 						</alternativePerformances>
 					</performanceTable>]]></xmcda>
       </output>
-      <output id="maxEfficiency" name="maxEfficiency" displayName="maxEfficiency">
+      <output id="maxEfficiency" name="maxEfficiency" displayName="max efficiency">
          <documentation>
             <description>A list of alternatives with maximum efficiency scores (obtained for given sample).</description>
          </documentation>
@@ -185,7 +185,7 @@
 						[...]
 					</alternativesValues>]]></xmcda>
       </output>
-      <output id="minEfficiency" name="minEfficiency" displayName="minEfficiency">
+      <output id="minEfficiency" name="minEfficiency" displayName="min efficiency">
          <documentation>
             <description>A list of alternatives with computed minimum efficiency scores (obtained for given sample).</description>
          </documentation>
@@ -199,7 +199,7 @@
 						[...]
 					</alternativesValues>]]></xmcda>
       </output>
-      <output id="avgEfficiency" name="avgEfficiency" displayName="avgEfficiency">
+      <output id="avgEfficiency" name="avgEfficiency" displayName="average efficiency">
          <documentation>
             <description>A list of alternatives with average efficiency scores (obtained for given sample).</description>
          </documentation>
