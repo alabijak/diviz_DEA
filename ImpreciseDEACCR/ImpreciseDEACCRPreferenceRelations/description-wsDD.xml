@@ -92,11 +92,12 @@
          <documentation>
             <description>Represents method parameters (tolerance).</description>
          </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter id="tolerance">
-								<value>%1</value>
-							</parameter>
-					</methodParameters>]]></xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+    <methodParameters>
+        <parameter id="tolerance">
+            <value><real>%1</real></value>
+        </parameter>
+    </methodParameters>]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="float" displayName="tolerance">
                <constraint>

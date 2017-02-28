@@ -5,7 +5,7 @@
             <alternativeID>h1</alternativeID>
             <values>
                 <value>
-                    <real>0.9996871457</real>
+                    <real>0.999895</real>
                 </value>
             </values>
         </alternativeValue>
@@ -13,7 +13,7 @@
             <alternativeID>h2</alternativeID>
             <values>
                 <value>
-                    <real>0.9996925083</real>
+                    <real>0.99985929</real>
                 </value>
             </values>
         </alternativeValue>
@@ -21,7 +21,7 @@
             <alternativeID>h3</alternativeID>
             <values>
                 <value>
-                    <real>0.9997263074</real>
+                    <real>0.99988975</real>
                 </value>
             </values>
         </alternativeValue>
@@ -29,7 +29,7 @@
             <alternativeID>h4</alternativeID>
             <values>
                 <value>
-                    <real>0.9997312738</real>
+                    <real>0.9999</real>
                 </value>
             </values>
         </alternativeValue>
@@ -37,7 +37,7 @@
             <alternativeID>h5</alternativeID>
             <values>
                 <value>
-                    <real>0.9996012049</real>
+                    <real>0.9997114261</real>
                 </value>
             </values>
         </alternativeValue>
@@ -45,7 +45,7 @@
             <alternativeID>h6</alternativeID>
             <values>
                 <value>
-                    <real>0.9996818957</real>
+                    <real>0.99988975</real>
                 </value>
             </values>
         </alternativeValue>
@@ -53,7 +53,7 @@
             <alternativeID>h7</alternativeID>
             <values>
                 <value>
-                    <real>0.9996879732</real>
+                    <real>0.99988975</real>
                 </value>
             </values>
         </alternativeValue>
@@ -61,7 +61,7 @@
             <alternativeID>h8</alternativeID>
             <values>
                 <value>
-                    <real>0.9996879732</real>
+                    <real>0.99988975</real>
                 </value>
             </values>
         </alternativeValue>
@@ -69,7 +69,7 @@
             <alternativeID>h9</alternativeID>
             <values>
                 <value>
-                    <real>0.9996450542</real>
+                    <real>0.9998659904</real>
                 </value>
             </values>
         </alternativeValue>
@@ -77,7 +77,7 @@
             <alternativeID>h10</alternativeID>
             <values>
                 <value>
-                    <real>0.9996575131</real>
+                    <real>0.9998784494</real>
                 </value>
             </values>
         </alternativeValue>
@@ -85,7 +85,7 @@
             <alternativeID>h11</alternativeID>
             <values>
                 <value>
-                    <real>0.9996424555</real>
+                    <real>0.9998842375</real>
                 </value>
             </values>
         </alternativeValue>
@@ -93,7 +93,7 @@
             <alternativeID>h12</alternativeID>
             <values>
                 <value>
-                    <real>0.9996444001</real>
+                    <real>0.9998723718</real>
                 </value>
             </values>
         </alternativeValue>

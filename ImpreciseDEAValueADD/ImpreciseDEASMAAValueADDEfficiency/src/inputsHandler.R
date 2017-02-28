@@ -51,46 +51,27 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) { # TODO
   parameters <- as.list(xmcdaData$programParametersList)
   if(length(parameters) > 0)
   {
-    for(i in 1:length(parameters)) {
-      for(param in as.list(parameters[[i]]))
-      {
-        
-        if((!is.null(param$id()) && param$id() == "tolerance") || 
-           (!is.null(param$name()) && param$name() == "tolerance"))
-        {
-          tolerance <- param$getValues()$get(as.integer(0))$getValue()
-        }
-        if((!is.null(param$id()) && param$id() == "transformToUtilities") || 
-           (!is.null(param$name()) && param$name() == "transformToUtilities"))
-        {
-          transformToUtilities <- param$getValues()$get(as.integer(0))$getValue()
-        }
-        if((!is.null(param$id()) && param$id() == "boundariesProvided") || 
-           (!is.null(param$name()) && param$name() == "boundariesProvided"))
-        {
-          boundariesProvided <- as.logical(param$getValues()$get(as.integer(0))$getValue())
-        }
-        
-        if((!is.null(param$id()) && param$id() == "functionShapeProvided") || 
-           (!is.null(param$name()) && param$name() == "functionShapeProvided"))
-        {
-          functionShapeProvided <- as.logical(param$getValues()$get(as.integer(0))$getValue())
-        }
-        
-        if((!is.null(param$id()) && param$id() == "samplesNo") || 
-           (!is.null(param$name()) && param$name() == "samplesNo"))
-        {
-          samplesNo <- param$getValues()$get(as.integer(0))$getValue()
-        }
-        if((!is.null(param$id()) && param$id() == "intervalsNb") || 
-           (!is.null(param$name()) && param$name() == "intervalsNb"))
-        {
-          intervalsNo <- param$getValues()$get(as.integer(0))$getValue()
-        }
-        
-      }
-    }
+    parameters <- parameters[[1]]
+    param <- parameters$getParameter("tolerance")
+    if(!is.null(param))
+      tolerance <-param$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("transformToUtilities")
+    if(!is.null(param))
+      transformToUtilities <-param$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("boundariesProvided")
+    if(!is.null(param))
+      boundariesProvided <-param$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("functionShapeProvided")
+    if(!is.null(param))
+      functionShapeProvided <-param$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("samplesNb")
+    if(!is.null(param))
+      samplesNo <-param$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("intervalsNb")
+    if(!is.null(param))
+      intervalsNo <-param$getValues()$get(as.integer(0))$getValue()
   }  
+
   if(is.null(maxPerformance))
   { 
     maxPerformance = array(dim=c(nrow(performance), ncol(performance)))

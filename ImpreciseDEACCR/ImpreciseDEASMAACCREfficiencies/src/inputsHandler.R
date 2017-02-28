@@ -50,18 +50,18 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) { # TODO
   if(length(parameters) > 0)
   {
     parameters <- parameters[[1]]
-    toleranceParam <- parameters$getParameter("tolerance")
-    if(!is.null(toleranceParam))
-      tolerance <-toleranceParam$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("tolerance")
+    if(!is.null(param))
+      tolerance <-param$getValues()$get(as.integer(0))$getValue()
     
-    samplesParam <- parameters$getParameter("samplesNb")
-    if(!is.null(toleranceParam))
-      samplesNo <-toleranceParam$getValues()$get(as.integer(0))$getValue()
+    param <- parameters$getParameter("samplesNb")
+    if(!is.null(param))
+      samplesNo <-param$getValues()$get(as.integer(0))$getValue()
     
-    toleranceParam <- parameters$getParameter("intervalsNb")
-    if(!is.null(toleranceParam))
-      intervalsNo <-toleranceParam$getValues()$get(as.integer(0))$getValue()
-  }  
+    param <- parameters$getParameter("intervalsNb")
+    if(!is.null(param))
+      intervalsNo <-param$getValues()$get(as.integer(0))$getValue()
+  }
   
   if(is.null(maxPerformance))
   { 

@@ -96,17 +96,18 @@
          <documentation>
             <description>"samplesNb" represents the number of samples to generate; "intervalsNo" represents the number of buckets which efficiency scores will be assigned to.</description>
          </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter id="samplesNb">
-								<value><integer>%1</integer></value>
-							</parameter>
-							<parameter id="intervalsNb">
-								<value><integer>%2</integer></value>
-							</parameter>
-							<parameter id="tolerance">
-								<value><integer>%3</integer></value>
-							</parameter>
-					</methodParameters>]]></xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+    <methodParameters>
+        <parameter id="samplesNb">
+            <value><integer>%1</integer></value>
+        </parameter>
+        <parameter id="intervalsNb">
+            <value><integer>%2</integer></value>
+        </parameter>
+        <parameter id="tolerance">
+            <value><real>%3</real></value>
+        </parameter>
+    </methodParameters>]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="int" displayName="number of samples">
                <constraint>

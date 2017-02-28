@@ -110,22 +110,22 @@
           "functionShapeProvided" means if inputsOutputs file contains information about the shapes of value function for given factor.
         </description>
       </documentation>
-        <xmcda tag="methodParameters">
-                <![CDATA[<methodParameters>
-                <parameter id="tolerance">
-                    <value><real>%1</real></value>
-                </parameter>
-                <parameter id="transformToUtilities">
-                    <value><boolean>%2</boolean></value>
-                </parameter>
-                <parameter id="boundariesProvided">
-                    <value><boolean>%3</boolean></value>
-                </parameter>
-                <parameter id="functionShapeProvided">
-                    <value><boolean>%4</boolean></value>
-                </parameter>
-            </methodParameters>
-        ]]></xmcda>
+      <xmcda tag="methodParameters"><![CDATA[
+    <methodParameters>
+        <parameter id="tolerance">
+            <value><real>%1</real></value>
+        </parameter>
+        <parameter id="transformToUtilities">
+            <value><boolean>%2</boolean></value>
+        </parameter>
+        <parameter id="boundariesProvided">
+            <value><boolean>%3</boolean></value>
+        </parameter>
+        <parameter id="functionShapeProvided">
+            <value><boolean>%4</boolean></value>
+        </parameter>
+    </methodParameters>
+]]></xmcda>
       <gui status="preferGUI">
         <entry id="%1" type="float" displayName="tolerance">
           <constraint>

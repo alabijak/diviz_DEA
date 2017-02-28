@@ -96,14 +96,15 @@
          <documentation>
             <description>"samplesNb" represents the number of samples to generate.</description>
          </documentation>
-         <xmcda tag="methodParameters"><![CDATA[<methodParameters>
-							<parameter id="samplesNb">
-								<value><integer>%1</integer></value>
-							</parameter>
-                            <parameter id="tolerance">
-								<value><real>%2</real></value>
-							</parameter>
-					</methodParameters>]]></xmcda>
+         <xmcda tag="methodParameters"><![CDATA[
+         <methodParameters>
+            <parameter id="samplesNb">
+                <value><integer>%1</integer></value>
+            </parameter>
+            <parameter id="tolerance">
+                <value><real>%2</real></value>
+            </parameter>
+        </methodParameters>]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="int" displayName="number of samples">
                <constraint>
