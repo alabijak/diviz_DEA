@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program_description>
+   <program provider="PUT" name="ImpreciseDEASMAACCREfficiencies" displayName="ImpreciseDEASMAACCREfficiencies" version="1.0" />
+   <documentation>
+      <description>Computes efficiency scores for the given DMUs (alternatives) using SMAA-D method and CCR Data Envelopment Analysis Model qith imprecise data. For given number of buckets and samples, returns a matrix with alternatives in each row and buckets representing efficiency intervals in each column. Single cell indicates how many samples gave efficiency scores of respective alternative in respective bucket.</description>
+      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+   </documentation>
+   <parameters>
+      <input id="units" name="units" displayName="units" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs).</description>
+         </documentation>
+         <xmcda tag="alternatives"><![CDATA[<alternatives>
+                        <alternative>
+                            [...]
+                        </alternative>
+                        [...]
+                    </alternatives>]]></xmcda>
+      </input>
+      <input id="inputsOutputs" name="inputsOutputs" displayName="inputs/outputs" isoptional="0">
+         <documentation>
+            <description>A list of criteria.</description>
+         </documentation>
+         <xmcda tag="criteria"><![CDATA[<criteria>
+                        <criterion>[...]</criterion>
+                        [...]
+                    </criteria>]]></xmcda>
+      </input>
+      <input id="inputsOutputsScales" name="inputsOutputsScales" displayName="inputs/outputs scales" isoptional="0">
+         <documentation>
+            <description>Informations about inputs and outpus scales and optionally about boundaries</description>
+         </documentation>
+         <xmcda tag="criteriaScales"><![CDATA[
+<criteriaScales>
+    <criterionScale>
+      <criterionID>[...]</criterionID>
+      <scales>
+        <scale>
+          [...]
+        </scale>
+      </scales>
+    </criterionScale>
+    [...]
+</criteriaScales>]]></xmcda>
+      </input>
+      <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
+         <documentation>
+            <description>A list of alternatives (DMUs) minimal performances (or exact performances if intervals should be created by tolerance).</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>
+									[...]
+								</criterionID>
+								<values><value>[...]</value></values>
+							</performance>
+							[...]
+						</alternativePerformances>
+						[...]
+					</performanceTable>]]></xmcda>
+      </input>
+	  <input id="maxPerformanceTable" name="maxPerformanceTable" displayName="max performance" isoptional="1">
+         <documentation>
+            <description>A list of alternatives (DMUs) maximal performances.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>
+									[...]
+								</criterionID>
+								<values><value>[...]</value></values>
+							</performance>
+							[...]
+						</alternativePerformances>
+						[...]
+					</performanceTable>]]></xmcda>
+      </input>
+      <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
+         <documentation>
+            <description>A list of criteria linear constraints.</description>
+         </documentation>
+         <xmcda tag="criteriaLinearConstraints"><![CDATA[
+            <criteriaLinearConstraints>
+                <constraints>
+                    <constraint>
+                        <elements>
+                            <element>
+                                <criterionID> [...] </criterionID>
+                                <coefficient>
+                                    [...]
+                                </coefficient>
+                            </element>
+                            [...]
+                        </elements>
+                        <operator>[...]</operator>
+                        <rhs>
+                            [...]
+                        </rhs>
+                    </constraint>
+                    [...]
+                </constraints>
+            </criteriaLinearConstraints>]]></xmcda>
+      </input>
+      <input id="methodParameters" name="methodParameters" displayName="method parameters">
+         <documentation>
+            <description>"samplesNb" represents the number of samples to generate; "intervalsNo" represents the number of buckets which efficiency scores will be assigned to.</description>
+         </documentation>
+         <xmcda tag="programParameters"><![CDATA[
+    <programParameters>
+        <parameter id="samplesNb">
+            <values>
+                <value><integer>%1</integer></value>
+            </values>
+        </parameter>
+        <parameter id="intervalsNb">
+            <values>
+                <value><integer>%2</integer></value>
+            </values>
+        </parameter>
+        <parameter id="tolerance">
+            <values>
+                <value><real>%3</real></value>
+            </values>
+        </parameter>
+    </programParameters>]]></xmcda>
+         <gui status="preferGUI">
+            <entry id="%1" type="int" displayName="number of samples">
+               <constraint>
+                  <description>The value should be a positive integer.</description>
+                  <code><![CDATA[%1 > 0]]></code>
+               </constraint>
+               <defaultValue>100</defaultValue>
+            </entry>
+            <entry id="%2" type="int" displayName="number of buckets">
+               <constraint>
+                  <description>The value should be a positive integer.</description>
+                  <code><![CDATA[%2 > 0]]></code>
+               </constraint>
+               <defaultValue>10</defaultValue>
+            </entry>
+            <entry id="%3" type="float" displayName="tolerance">
+               <constraint>
+                  <description>The value should be a non-negative number.</description>
+                  <code><![CDATA[%3 >= 0]]></code>
+               </constraint>
+               <defaultValue>0.0</defaultValue>
+            </entry>
+         </gui>
+      </input>
+      <output id="efficiencyDistribution" name="efficiencyDistribution" displayName="efficiency distribution">
+         <documentation>
+            <description>A performance table for given alternatives. Single performance consists of attribute criterionID representing certain bucket, and a value representing the ratio of efficiency scores in this bucket.</description>
+         </documentation>
+         <xmcda tag="performanceTable"><![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>[...]</criterionID>
+									<values>
+                                        <value>[...]</value>
+                                    </values>
+							</performance>
+							[...]
+						</alternativePerformances>
+                        [...]
+					</performanceTable>]]></xmcda>
+      </output>
+      <output id="maxEfficiency" name="maxEfficiency" displayName="max efficiency">
+         <documentation>
+            <description>A list of alternatives with maximum efficiency scores (obtained for given sample).</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+                          <values>
+                                <value>
+                                    [...]
+                                </value>
+                          </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="minEfficiency" name="minEfficiency" displayName="min efficiency">
+         <documentation>
+            <description>A list of alternatives with computed minimum efficiency scores (obtained for given sample).</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+                          <values>
+                                <value>
+                                    [...]
+                                </value>
+                          </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]></xmcda>
+      </output>
+      <output id="avgEfficiency" name="avgEfficiency" displayName="average efficiency">
+         <documentation>
+            <description>A list of alternatives with average efficiency scores (obtained for given sample).</description>
+         </documentation>
+         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+                          <values>
+                                <value>
+                                    [...]
+                                </value>
+                          </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]></xmcda>
+      </output>
+	  <output id="messages" name="messages" displayName="messages">
+         <documentation>
+            <description>A list of messages generated by the algorithm.</description>
+         </documentation>
+         <xmcda tag="programExecutionResult" />
+      </output>
+   </parameters>
+</program_description>
