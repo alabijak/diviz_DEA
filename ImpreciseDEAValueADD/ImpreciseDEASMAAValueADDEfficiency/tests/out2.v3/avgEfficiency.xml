@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2016/XMCDA-3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2016/XMCDA-3.0.2 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.2.xsd">
 
 <alternativesValues>
 		<alternativeValue>
 			<alternativeID>h1</alternativeID>
 			<values>
 				<value>
-					<real>0.5059090259837572</real>
+					<real>0.5257630309599161</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -14,7 +14,7 @@
 			<alternativeID>h2</alternativeID>
 			<values>
 				<value>
-					<real>0.6735304867661398</real>
+					<real>0.6944803223511888</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -22,7 +22,7 @@
 			<alternativeID>h3</alternativeID>
 			<values>
 				<value>
-					<real>0.518327777750406</real>
+					<real>0.5288318788776774</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -30,7 +30,7 @@
 			<alternativeID>h4</alternativeID>
 			<values>
 				<value>
-					<real>0.43720992127962455</real>
+					<real>0.4320950402306313</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -38,7 +38,7 @@
 			<alternativeID>h5</alternativeID>
 			<values>
 				<value>
-					<real>0.6574226487236124</real>
+					<real>0.6931138236132621</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -46,7 +46,7 @@
 			<alternativeID>h6</alternativeID>
 			<values>
 				<value>
-					<real>0.4614226903262733</real>
+					<real>0.4459792636318696</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -54,7 +54,7 @@
 			<alternativeID>h7</alternativeID>
 			<values>
 				<value>
-					<real>0.4969474102245901</real>
+					<real>0.48038034419638387</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -62,7 +62,7 @@
 			<alternativeID>h8</alternativeID>
 			<values>
 				<value>
-					<real>0.4922269095422142</real>
+					<real>0.5020999098040622</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -70,7 +70,7 @@
 			<alternativeID>h9</alternativeID>
 			<values>
 				<value>
-					<real>0.617349307895026</real>
+					<real>0.6262531820867075</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -78,7 +78,7 @@
 			<alternativeID>h10</alternativeID>
 			<values>
 				<value>
-					<real>0.5462008371008087</real>
+					<real>0.5338225212358357</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -86,7 +86,7 @@
 			<alternativeID>h11</alternativeID>
 			<values>
 				<value>
-					<real>0.5347501506302897</real>
+					<real>0.5089011405405776</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -94,7 +94,7 @@
 			<alternativeID>h12</alternativeID>
 			<values>
 				<value>
-					<real>0.6181341832756326</real>
+					<real>0.6181311731680299</real>
 				</value>
 			</values>
 		</alternativeValue>

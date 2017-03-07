@@ -3,75 +3,99 @@
     <alternativesValues>
         <alternativeValue>
             <alternativeID>h1</alternativeID>
-            <value>
-                <real>0.45692809146950447</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.4868762880166646</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h2</alternativeID>
-            <value>
-                <real>0.6259315139843362</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.6300526249834579</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h3</alternativeID>
-            <value>
-                <real>0.4679595735511506</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.49242248208912914</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h4</alternativeID>
-            <value>
-                <real>0.39261811916674483</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.42026299372038295</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h5</alternativeID>
-            <value>
-                <real>0.6223456896624388</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.6216908604407139</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h6</alternativeID>
-            <value>
-                <real>0.4190720030299447</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.4271561494049631</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h7</alternativeID>
-            <value>
-                <real>0.45417277425723673</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.4683371155304904</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h8</alternativeID>
-            <value>
-                <real>0.45259959206195943</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.4716487731471414</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h9</alternativeID>
-            <value>
-                <real>0.5947363400554265</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.5881718194764121</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h10</alternativeID>
-            <value>
-                <real>0.5082137907810271</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.5134899099977336</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h11</alternativeID>
-            <value>
-                <real>0.5208407303885483</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.5160245203809802</real>
+                </value>
+            </values>
         </alternativeValue>
         <alternativeValue>
             <alternativeID>h12</alternativeID>
-            <value>
-                <real>0.603795728430574</real>
-            </value>
+            <values>
+                <value>
+                    <real>0.6107139305556722</real>
+                </value>
+            </values>
         </alternativeValue>
     </alternativesValues>
 </ns2:XMCDA>

@@ -22,6 +22,11 @@ script.dir <- function() {
   }
 }
 
+if(length(commandArgs(trailingOnly=TRUE)) > 2
+   && !is.na(as.numeric(commandArgs(trailingOnly=TRUE)[3]))){
+  set.seed(as.numeric(commandArgs(trailingOnly=TRUE)[3]))
+}
+
 # load the R files in the script's directory
 script.wd <- setwd(script.dir())
 

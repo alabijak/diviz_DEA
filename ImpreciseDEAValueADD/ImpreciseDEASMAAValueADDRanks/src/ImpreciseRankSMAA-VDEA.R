@@ -1,7 +1,6 @@
 calculateRankSMAAForAll <- function(dmuData, samplesNo=10, transformToUtilities=TRUE) {
   dmuCount = nrow(dmuData$data)
   result <- c()
-  source("smaa.R")
   source("ImpreciseEfficiencySMAA-VDEA.R")
   effResults <- calculateEfficiencySMAAForAll(dmuData, samplesNo, transformToUtilities)
   result <- calculateRankSMAA(effResults)

@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2016/XMCDA-3.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2016/XMCDA-3.0.2 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.2.xsd">
 
 <alternativesValues>
 		<alternativeValue>
 			<alternativeID>alt1</alternativeID>
 			<values>
 				<value>
-					<real>0.29765749088103116</real>
+					<real>0.2547957380583784</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -14,7 +14,7 @@
 			<alternativeID>alt2</alternativeID>
 			<values>
 				<value>
-					<real>0.10513633874453918</real>
+					<real>0.1507512836667342</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -22,7 +22,7 @@
 			<alternativeID>alt3</alternativeID>
 			<values>
 				<value>
-					<real>0.25350022540655803</real>
+					<real>0.1865928676844877</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -30,7 +30,7 @@
 			<alternativeID>alt4</alternativeID>
 			<values>
 				<value>
-					<real>0.20247943688946263</real>
+					<real>0.22518671748515262</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -38,7 +38,7 @@
 			<alternativeID>alt5</alternativeID>
 			<values>
 				<value>
-					<real>0.08057335774575346</real>
+					<real>0.04835794680773001</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -46,7 +46,7 @@
 			<alternativeID>alt6</alternativeID>
 			<values>
 				<value>
-					<real>0.19758578393403134</real>
+					<real>0.15401663549166908</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -54,7 +54,7 @@
 			<alternativeID>alt7</alternativeID>
 			<values>
 				<value>
-					<real>0.16477864023900454</real>
+					<real>0.14966523822894034</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -62,7 +62,7 @@
 			<alternativeID>alt8</alternativeID>
 			<values>
 				<value>
-					<real>0.2637136878805652</real>
+					<real>0.2611727951883951</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -70,7 +70,7 @@
 			<alternativeID>alt9</alternativeID>
 			<values>
 				<value>
-					<real>0.1716670645132061</real>
+					<real>0.11161409798489627</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -78,7 +78,7 @@
 			<alternativeID>alt10</alternativeID>
 			<values>
 				<value>
-					<real>0.21250359773774027</real>
+					<real>0.12487978041860992</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -86,7 +86,7 @@
 			<alternativeID>alt11</alternativeID>
 			<values>
 				<value>
-					<real>0.2220343003134576</real>
+					<real>0.223478899254122</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -94,7 +94,7 @@
 			<alternativeID>alt12</alternativeID>
 			<values>
 				<value>
-					<real>0.1233843015806621</real>
+					<real>0.09757313622255917</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -102,7 +102,7 @@
 			<alternativeID>alt13</alternativeID>
 			<values>
 				<value>
-					<real>0.14797177348684795</real>
+					<real>0.1005412792612022</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -110,7 +110,7 @@
 			<alternativeID>alt14</alternativeID>
 			<values>
 				<value>
-					<real>0.08178234113945779</real>
+					<real>0.1015552385863173</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -118,7 +118,7 @@
 			<alternativeID>alt15</alternativeID>
 			<values>
 				<value>
-					<real>0.2117805481354169</real>
+					<real>0.18548856199278405</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -126,7 +126,7 @@
 			<alternativeID>alt16</alternativeID>
 			<values>
 				<value>
-					<real>0.129400727989283</real>
+					<real>0.10570415715056035</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -134,7 +134,7 @@
 			<alternativeID>alt17</alternativeID>
 			<values>
 				<value>
-					<real>0.34330936900223874</real>
+					<real>0.3111428030962079</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -142,7 +142,7 @@
 			<alternativeID>alt18</alternativeID>
 			<values>
 				<value>
-					<real>0.08370476825910277</real>
+					<real>0.12542846572258923</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -150,7 +150,7 @@
 			<alternativeID>alt19</alternativeID>
 			<values>
 				<value>
-					<real>0.2831391692238339</real>
+					<real>0.23566251986691344</real>
 				</value>
 			</values>
 		</alternativeValue>
@@ -158,7 +158,7 @@
 			<alternativeID>alt20</alternativeID>
 			<values>
 				<value>
-					<real>0.0811142450206864</real>
+					<real>0.12406276319957574</real>
 				</value>
 			</values>
 		</alternativeValue>

@@ -1,2 +1,2 @@
 cd ../src
-R --slave --vanilla --file=ImpreciseDEASMAAValueADDPreferenceRelationsCLI_XMCDAv3.R --args "%CD%/../tests/in3.v3" "%CD%/../tests/out3.v3"
+R --slave --vanilla --file=ImpreciseDEASMAAValueADDPreferenceRelationsCLI_XMCDAv3.R --args "%CD%/../tests/in3.v3" "%CD%/../tests/out3.v3" "0"
