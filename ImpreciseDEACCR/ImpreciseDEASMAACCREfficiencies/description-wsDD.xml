@@ -3,7 +3,7 @@
    <program provider="PUT" name="ImpreciseDEASMAACCREfficiencies" displayName="ImpreciseDEASMAACCREfficiencies" version="1.0" />
    <documentation>
       <description>Computes efficiency scores for the given DMUs (alternatives) using SMAA-D method and CCR Data Envelopment Analysis Model qith imprecise data. For given number of buckets and samples, returns a matrix with alternatives in each row and buckets representing efficiency intervals in each column. Single cell indicates how many samples gave efficiency scores of respective alternative in respective bucket.</description>
-      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+     <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>
    </documentation>
    <parameters>
       <input id="units" name="units" displayName="units" isoptional="0">

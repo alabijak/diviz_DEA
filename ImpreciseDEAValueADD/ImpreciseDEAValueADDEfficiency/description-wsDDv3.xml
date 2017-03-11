@@ -3,7 +3,7 @@
    <program provider="PUT" name="ImpreciseDEAValueADDEfficiency" displayName="ImpreciseDEACCREfficiency" version="1.0" />
    <documentation>
       <description>Computes efficiency scores for the given DMUs (alternatives)  using Additive Data Envelopment Analysis Model with imprecise information.</description>
-      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+      <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>
    </documentation>
    <parameters>
       <input id="units" name="units" displayName="units" isoptional="0">

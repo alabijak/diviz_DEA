@@ -3,7 +3,7 @@
    <program provider="PUT" name="ImpreciseDEACCRPreferenceRelations" displayName="ImpreciseDEACCRPreferenceRelations" version="1.0" />
    <documentation>
       <description>Computes extrene efficiency ranks for the given DMUs (alternatives) using CCR Data Envelopment Analysis Model.</description>
-      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+     <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>
    </documentation>
     <parameters>
       <input id="units" name="units" displayName="units" isoptional="0">

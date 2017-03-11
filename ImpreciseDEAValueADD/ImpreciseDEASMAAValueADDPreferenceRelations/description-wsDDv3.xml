@@ -3,7 +3,7 @@
    <program provider="PUT" name="ImpreciseDEASMAAValueADDPreferenceRelations" displayName="ImpreciseDEASMAAValueADDPreferenceRelations" version="1.0" />
    <documentation>
       <description>Determines dominance relations for the given DMUs (alternatives) using SMAA-D method and Additive Data Envelopment Analysis Model with imprecise data. For given number of samples  returns a matrix with alternatives in each row and column. Single cell indicates how many samples of alternative in a row dominates alternative in a column.</description>
-      <contact>Anna Labijak (ania.labijak@gmail.com)</contact>
+      <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>
    </documentation>
    <parameters>
      <input id="units" name="units" displayName="units" isoptional="0">
