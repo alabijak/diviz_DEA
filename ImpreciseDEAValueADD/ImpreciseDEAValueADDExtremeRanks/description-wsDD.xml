@@ -150,12 +150,14 @@
         <description>A list of alternatives with computed best rank for each of them.</description>
       </documentation>
       <xmcda tag="alternativesValues">
-        <![CDATA[<alternativesValues mcdaConcept="bestRank">
+        <![CDATA[<alternativesValues>
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
+						  <values>
+                <value>
+							  [...]
+						    </value>
+              </values>
 						</alternativeValue>
 						[...]
 					</alternativesValues>]]>
@@ -166,12 +168,14 @@
         <description>A list of alternatives with computed worst rank for each of them.</description>
       </documentation>
       <xmcda tag="alternativesValues">
-        <![CDATA[<alternativesValues mcdaConcept="worstRank">
+        <![CDATA[<alternativesValues>
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
+						  <values>
+							  <value>
+                [...]
+                <value>
+						  </values>
 						</alternativeValue>
 						[...]
 					</alternativesValues>]]>

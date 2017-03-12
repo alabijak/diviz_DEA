@@ -112,12 +112,15 @@
          <documentation>
             <description>A list of alternatives with computed minimum efficiency scores.</description>
          </documentation>
-         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
+         <xmcda tag="alternativesValues"><![CDATA[
+         <alternativesValues>
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
+						  <values>
+                <value>
+							  [...]
+						    </value>
+              </values>
 						</alternativeValue>
 						[...]
 					</alternativesValues>]]></xmcda>
@@ -126,12 +129,16 @@
          <documentation>
             <description>A list of alternatives with computed maximum efficiency scores.</description>
          </documentation>
-         <xmcda tag="alternativesValues"><![CDATA[<alternativesValues mcdaConcept="efficiency">
+         <xmcda tag="alternativesValues">
+                <![CDATA[
+         <alternativesValues>
 						<alternativeValue>
 						  <alternativeID> [...] </alternativeID>
-						  <value>
-							[...]
-						  </value>
+						  <values>
+                <value>
+							  [...]
+						    </value>
+              </values>
 						</alternativeValue>
 						[...]
 					</alternativesValues>]]></xmcda>

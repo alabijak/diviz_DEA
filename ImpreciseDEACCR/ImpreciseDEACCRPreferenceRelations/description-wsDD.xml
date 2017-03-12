@@ -112,44 +112,50 @@
          <documentation>
             <description>A list of pairs of pairs of DMU related with necessary preference relation.</description>
          </documentation>
-         <xmcda tag="alternativesComparisons"><![CDATA[<alternativesComparisons mcdaConcept="bestRank">
+         <xmcda tag="alternativesComparisons"><![CDATA[
+         <alternativesComparisons>
 						<pairs>
-                            <pair>
-                                <initial>
-                                  <alternativeID>[...]</alternativeID>
-                                </initial>
-                                <terminal>
-                                  <alternativeID>[...]</alternativeID>
-                                </terminal>
-                                <value>
-                                  <real>1</real>
-                                </value>
-                            </pair>
-						[...]
-                        </pairs>
-                        [...]
+              <pair>
+                  <initial>
+                    <alternativeID>[...]</alternativeID>
+                  </initial>
+                  <terminal>
+                    <alternativeID>[...]</alternativeID>
+                  </terminal>
+                  <values>
+                    <value>
+                      <real>1</real>
+                    </value>
+                  </values>
+              </pair>
+						  [...]
+            </pairs>
+            [...]
 					</alternativesComparisons>]]></xmcda>
       </output>
 	  <output id="possibleDominance" name="possibleDominance" displayName="possible dominance">
          <documentation>
             <description>A list of pairs of pairs of DMU related with possible preference relation.</description>
          </documentation>
-         <xmcda tag="alternativesComparisons"><![CDATA[<alternativesComparisons mcdaConcept="bestRank">
+         <xmcda tag="alternativesComparisons"><![CDATA[
+         <alternativesComparisons>
 						<pairs>
-                            <pair>
-                                <initial>
-                                  <alternativeID>[...]</alternativeID>
-                                </initial>
-                                <terminal>
-                                  <alternativeID>[...]</alternativeID>
-                                </terminal>
-                                <value>
-                                  <real>1</real>
-                                </value>
-                            </pair>
-						[...]
-                        </pairs>
-                        [...]
+              <pair>
+                  <initial>
+                    <alternativeID>[...]</alternativeID>
+                  </initial>
+                  <terminal>
+                    <alternativeID>[...]</alternativeID>
+                  </terminal>
+                  <values>
+                    <value>
+                      <real>1</real>
+                    </value>
+                  </values>
+              </pair>
+						  [...]
+            </pairs>
+            [...]
 					</alternativesComparisons>]]></xmcda>
       </output>
 	  <output id="messages" name="messages" displayName="messages">
