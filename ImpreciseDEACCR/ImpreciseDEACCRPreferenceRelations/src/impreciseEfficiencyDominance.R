@@ -126,6 +126,7 @@ createProblemObjective = function(problemName, model, subjectDmuIdx, dmuData) {
     }
   }
   set.objfn(model, objective)
+  add.constraint(model, objective, ">=", -2)
 }
 
 createConstraints = function(problemName, model, subjectDmuIdx, dmuData, relativeDmu) {
@@ -221,6 +222,7 @@ createMonotonicityConstraints = function(model, subjectDmuIdx, relativeDmuIdx, d
       add.constraint(model, constraint, ">=", 0)
     }
     
+    constraint <-  array(0, dim = varCount)
     constraint[offset + criteriumValues[1,2]] <- 1
     add.constraint(model, constraint, "<=", 100000)
   }
