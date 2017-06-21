@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="ImpreciseDEASMAACCRPreferenceRelations" displayName="ImpreciseDEASMAACCRPreferenceRelations" version="1.0" />
+   <program provider="PUT" name="ImpreciseDEA-CCR-SMAA_preferenceRelations" displayName="ImpreciseDEA-CCR-SMAA_preferenceRelations" version="1.0" />
    <documentation>
       <description>Determines dominance relations for the given DMUs (alternatives) using SMAA-D method and CCR Data Envelopment Analysis Model with imprecise data. For given number of samples  returns a matrix with alternatives in each row and column. Single cell indicates how many samples of alternative in a row dominates alternative in a column.</description>
       <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>

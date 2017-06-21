@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program_description>
-   <program provider="PUT" name="ImpreciseDEASMAAValueADDRanks" displayName="ImpreciseDEASMAAValueADDRanks" version="1.0" />
+   <program provider="PUT" name="ImpreciseDEA-ValueAdditive-SMAA_ranks" displayName="ImpreciseDEA-ValueAdditive-SMAA_ranks" version="1.0" />
    <documentation>
       <description>Computes ranks for the given DMUs (alternatives) using SMAA-D method and Additive Data Envelopment Analysis Model with imprecise data. For given number of samples  returns a matrix with alternatives in each row and rankings in each column. Single cell indicates how many samples of respective alternative gave respective position in ranking.</description>
       <contact><![CDATA[Anna Labijak <support@decision-deck.org>]]></contact>
