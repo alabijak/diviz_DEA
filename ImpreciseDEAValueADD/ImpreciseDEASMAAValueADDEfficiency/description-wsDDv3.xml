@@ -49,7 +49,7 @@
 </criteriaScales>]]>
       </xmcda>
     </input>
-    <input id="inputsOutputsFunctions" name="inputsOutputsScales" displayName="inputs/outputs function shapes" isoptional="defaultFalse">
+    <input id="inputsOutputsFunctions" name="inputsOutputsFunctions" displayName="inputs/outputs function shapes" isoptional="defaultFalse">
       <documentation>
         <description>Shapes of functions assigned to inputs and outputs (if other than linear)</description>
       </documentation>
