@@ -173,22 +173,22 @@
 		</parameter>
 		<parameter id="tolerance">
       <values>
-        <value><real>%1</real></value>
+        <value><real>%3</real></value>
       </values>
   </parameter>
   <parameter id="transformToUtilities">
       <values>
-        <value><boolean>%2</boolean></value>
+        <value><boolean>%4</boolean></value>
       </values>
 		</parameter>
 		<parameter id="boundariesProvided">
       <values>
-        <value><boolean>%3</boolean></value>
+        <value><boolean>%5</boolean></value>
       </values>
 		</parameter>
 		<parameter id="functionShapeProvided">
       <values>
-        <value><boolean>%4</boolean></value>
+        <value><boolean>%6</boolean></value>
       </values>
 		</parameter>
 	</programParameters>
