@@ -158,9 +158,9 @@
           "intervalsNb" determines number of buckets, for which the efficiency scores are divided.
         </description>
       </documentation>
-      <xmcda tag="methodParameters">
+      <xmcda tag="programParameters">
         <![CDATA[
-	<methodParameters>
+	<programParameters>
 		<parameter id="samplesNb">
 			<values>
          <value><integer>%1</integer></value>
@@ -191,7 +191,7 @@
         <value><boolean>%4</boolean></value>
       </values>
 		</parameter>
-	</methodParameters>
+	</programParameters>
 ]]>
       </xmcda>
       <gui status="preferGUI">

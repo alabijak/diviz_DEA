@@ -156,9 +156,9 @@
             "samplesNb" determines number of samples used to calculate results.
             </description>
          </documentation>
-         <xmcda tag="methodParameters">
+         <xmcda tag="programParameters">
            <![CDATA[
-	<methodParameters>
+	<programParameters>
 		<parameter id="samplesNb">
 			<values>
 				<value><integer>%1</integer></value>
@@ -184,7 +184,7 @@
 				<value><boolean>%5</boolean></value>
 			</values>
 		</parameter>
-	</methodParameters>
+	</programParameters>
 ]]></xmcda>
          <gui status="preferGUI">
             <entry id="%1" type="int" displayName="number of samples">
