@@ -98,7 +98,7 @@
 					</criteriaLinearConstraints>]]>
       </xmcda>
     </input>
-    <input id="methodParameters" name="methodParameters" displayName="method parameters">
+    <input id="methodParameters" name="methodParameters" displayName="parameters">
       <documentation>
         <description>Represents method parameters (tolerance).</description>
       </documentation>

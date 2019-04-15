@@ -117,7 +117,7 @@
             </criteriaLinearConstraints>]]>
        </xmcda>
      </input>
-     <input id="methodParameters" name="methodParameters" displayName="method parameters">
+     <input id="methodParameters" name="methodParameters" displayName="parameters">
        <documentation>
          <description>"samplesNb" represents the number of samples to generate; "intervalsNo" represents the number of buckets which efficiency scores will be assigned to.</description>
        </documentation>

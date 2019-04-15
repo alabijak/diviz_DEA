@@ -88,7 +88,7 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-	  <input id="methodParameters" name="methodParameters" displayName="method parameters">
+	  <input id="methodParameters" name="methodParameters" displayName="parameters">
          <documentation>
             <description>Represents method parameters.
             "tolerance" represents the fraction for creating interval data (created interval: [data*(1-tolerance), data*(1+tolerance)]),
