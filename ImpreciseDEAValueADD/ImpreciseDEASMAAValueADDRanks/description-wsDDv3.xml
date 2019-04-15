@@ -32,7 +32,7 @@
      </input>
      <input id="inputsOutputsScales" name="inputsOutputsScales" displayName="inputs/outputs scales" isoptional="0">
        <documentation>
-         <description>Informations about inputs and outpus scales and optionally about boundaries</description>
+         <description>Informations about inputs and outputs scales and optionally about boundaries</description>
        </documentation>
        <xmcda tag="criteriaScales">
          <![CDATA[
@@ -160,29 +160,29 @@
            <![CDATA[
 	<methodParameters>
 		<parameter id="samplesNb">
-	    <values>
-         <value><integer>%1</integer></value>
-       </values>
+			<values>
+				<value><integer>%1</integer></value>
+			</values>
 		</parameter>
 		<parameter id="tolerance">
-      <values>
-			  <value><real>%2</real></value>
-      </values>
+			<values>
+				<value><real>%2</real></value>
+			</values>
 		</parameter>
 		<parameter id="transformToUtilities">
-      <values>
-			  <value><boolean>%3</boolean></value>
-      </values>
+			<values>
+				<value><boolean>%3</boolean></value>
+			</values>
 		</parameter>
 		<parameter id="boundariesProvided">
-      <values>
-			  <value><boolean>%4</boolean></value>
-      </values>
+			<values>
+				<value><boolean>%4</boolean></value>
+			</values>
 		</parameter>
 		<parameter id="functionShapeProvided">
-      <values>
-			  <value><boolean>%5</boolean></value>
-      </values>
+			<values>
+				<value><boolean>%5</boolean></value>
+			</values>
 		</parameter>
 	</methodParameters>
 ]]></xmcda>

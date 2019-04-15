@@ -32,7 +32,7 @@
      </input>
      <input id="inputsOutputsScales" name="inputsOutputsScales" displayName="inputs/outputs scales" isoptional="0">
        <documentation>
-         <description>Informations about inputs and outpus scales and optionally about boundaries</description>
+         <description>Informations about inputs and outputs scales and optionally about boundaries</description>
        </documentation>
        <xmcda tag="criteriaScales">
          <![CDATA[
