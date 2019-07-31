@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+    <performanceTable>
+        <alternativePerformances>
+            <alternativeID>dmu1</alternativeID>
+            <performance>
+                <criterionID>o1</criterionID>
+                <value>
+                    <real>4.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.5</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>63.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>11.56</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>2.73</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>0.0</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu2</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.5</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>78.44</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>19.56</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.03</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>16.58</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>34.21</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu3</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>84.17</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>22.68</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>8.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.42</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>1.39</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>12.5</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu4</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>19.24</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>37.72</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.04</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>3.79</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>28.57</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu5</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>53.71</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>14.11</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>6.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>16.67</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>100.0</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu6</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>18.92</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.75</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>1.13</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>13.04</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu7</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>3483.45</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>29.55</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>3.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>8.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>15.2</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>100.0</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu8</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>3.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>1.14</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>16.54</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>3.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.29</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>1.43</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>19.05</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu9</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>3.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>3974.17</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>32.56</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>1.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>2.86</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>15.71</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>57.14</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu10</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>3.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>78.53</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>8.21</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>6.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.47</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>0.47</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>10.53</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu11</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.2</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>10.28</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>6.46</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>18.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.74</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>3.67</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>11.11</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu12</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>3.5</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.5</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.5</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>48.96</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>49.09</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>1.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>1.32</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>16.97</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>0.0</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu13</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>23.23</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>56.04</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>19.79</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>0.38</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>5.13</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu14</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.6</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.6</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>257.51</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>7.69</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>6.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>10.35</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>11.54</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu15</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>1.6</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>0.23</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>81.59</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>4.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>1.52</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>33.53</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>39.18</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu16</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>3.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>4.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>10.54</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>42.3</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.4</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>16.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>30.0</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu17</alternativeID>
+
+            <performance>
+                <criterionID>o1</criterionID>
+
+                <value>
+                    <real>4.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o2</criterionID>
+
+                <value>
+                    <real>3.7</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i1</criterionID>
+
+                <value>
+                    <real>5.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i2</criterionID>
+
+                <value>
+                    <real>14.4</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o3</criterionID>
+
+                <value>
+                    <real>74.04</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i3</criterionID>
+
+                <value>
+                    <real>2.0</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o4</criterionID>
+
+                <value>
+                    <real>0.88</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>i4</criterionID>
+
+                <value>
+                    <real>2.65</real>
+                </value>
+
+            </performance>
+            <performance>
+                <criterionID>o5</criterionID>
+
+                <value>
+                    <real>17.65</real>
+                </value>
+
+            </performance>
+        </alternativePerformances>
+    </performanceTable>
+</xmcda:XMCDA>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+    <hierarchy>
+        <description>
+            <title>Road user behavior</title>
+        </description>
+        <node>
+            <description>
+                <title>Alcohol</title>
+            </description>
+            <criterionID>alcohol</criterionID>
+            <node>
+                <description>
+                    <title>% of drivers above legal alcohol limit in roadside police tests</title>
+                </description>
+                <criterionID>o1</criterionID>
+            </node>
+            <node>
+                <description>
+                    <title>% of alcohol-related fatalities</title>
+                </description>
+                <criterionID>o2</criterionID>
+            </node>
+        </node>
+        <node>
+            <description>
+                <title>Speed</title>
+            </description>
+            <criterionID>speed</criterionID>
+            <node>
+                <description>
+                    <title>Mean speed</title>
+                </description>
+                <criterionID>mean_speed</criterionID>
+                <node>
+                    <description>
+                        <title>Mean speed of vehicles on motorways, normalized by speed limit</title>
+                    </description>
+                    <criterionID>o3</criterionID>
+                </node>
+                <node>
+                    <description>
+                        <title>Mean speed of vehicles on rural roads, normalized by speed limit</title>
+                    </description>
+                    <criterionID>o4</criterionID>
+                </node>
+                <node>
+                    <description>
+                        <title>Mean speed of vehicles on urban roads, normalized by speed limit</title>
+                    </description>
+                    <criterionID>o5</criterionID>
+                </node>
+            </node>
+            <node>
+                <description>
+                    <title>Speed limit violations</title>
+                </description>
+                <criterionID>speed_violations</criterionID>
+                <node>
+                    <description>
+                        <title>% of vehicles exceeding the speed limit on motorway</title>
+                    </description>
+                    <criterionID>o6</criterionID>
+                </node>
+                <node>
+                    <description>
+                        <title>% of vehicles exceeding the speed limit on rural roads</title>
+                    </description>
+                    <criterionID>o7</criterionID>
+                </node>
+                <node>
+                    <description>
+                        <title>% of vehicles exceeding the speed limit on urban roads</title>
+                    </description>
+                    <criterionID>o8</criterionID>
+                </node>
+            </node>
+        </node>
+        <node>
+            <description>
+                <title>Protectve systems</title>
+            </description>
+            <criterionID>protectve_systems</criterionID>
+            <node>
+                <description>
+                    <title>Seat belt</title>
+                </description>
+                <criterionID>seat_belt</criterionID>
+                <node>
+                    <description>
+                        <title>Daytime seatbelt wearing rate in front seats of light vehicles (%)</title>
+                    </description>
+                    <criterionID>o9</criterionID>
+                </node>
+                <node>
+                    <description>
+                        <title>Daytime seatbelt wearing rate in rear seats of light vehicles (%)</title>
+                    </description>
+                    <criterionID>o10</criterionID>
+                </node>
+            </node>
+            <node>
+                <description>
+                    <title>Child restraint</title>
+                </description>
+                <criterionID>child_restraint</criterionID>
+                <node>
+                    <description>
+                        <title>Daytime usage rate of child restraints (%)</title>
+                    </description>
+                    <criterionID>o11</criterionID>
+                </node>
+            </node>
+        </node>
+    </hierarchy>
+</xmcda:XMCDA>

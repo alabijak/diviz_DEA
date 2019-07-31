@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2009/XMCDA-2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2009/XMCDA-2.0.0 file:/home/pat/Documents/currentResearch/DecisionDeck/svn-DecisionDeck/XMCDA/XMCDA-2.0.0.xsd">
+    <alternatives>
+        <description>
+            <comment>Example from Shen, Yongjun, et al. "Data envelopment analysis for composite indicators: A multiple layer model." Social Indicators Research 114.2 (2013): 739-756. </comment>
+        </description>
+        <alternative id="AT">
+            <active>true</active>
+        </alternative>
+        <alternative id="BE">
+            <active>true</active>
+        </alternative>
+        <alternative id="FI">
+            <active>true</active>
+        </alternative>
+        <alternative id="FR">
+            <active>true</active>
+        </alternative>
+        <alternative id="HU">
+            <active>true</active>
+        </alternative>
+        <alternative id="IE">
+            <active>true</active>
+        </alternative>
+        <alternative id="LT">
+            <active>true</active>
+        </alternative>
+        <alternative id="NL">
+            <active>true</active>
+        </alternative>
+        <alternative id="PL">
+            <active>true</active>
+        </alternative>
+        <alternative id="PT">
+            <active>true</active>
+        </alternative>
+        <alternative id="SI">
+            <active>true</active>
+        </alternative>
+        <alternative id="SE">
+            <active>true</active>
+        </alternative>
+        <alternative id="CH">
+            <active>true</active>
+        </alternative>
+    </alternatives>
+
+</xmcda:XMCDA>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2017/XMCDA-2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance">
+    <performanceTable>
+        <alternativePerformances>
+            <alternativeID>dmu1</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.7</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.3</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu2</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.49</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.51</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu3</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.73</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.27</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu4</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.12</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.88</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu5</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.29</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.71</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu6</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.27</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.5</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.23</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu7</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.68</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.32</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu8</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.29</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.66</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.05</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu9</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.47</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.53</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu10</alternativeID>
+            <performance>
+                <criterionID>[0.0 - 0.1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.1 - 0.2]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.2 - 0.3]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.3 - 0.4]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.4 - 0.5]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.5 - 0.6]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.6 - 0.7]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.7 - 0.8]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.8 - 0.9]</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>(0.9 - 1]</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+    </performanceTable>
+</xmcda:XMCDA>

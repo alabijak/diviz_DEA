@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program_description>
+    <program provider="PUT" name="HierarchicalDEA-CCR_preferenceRelations" displayName="HierarchicalDEA-CCR_preferenceRelations" version="1.0" />
+    <documentation>
+        <description>Computes necessary and possible preference relations for the pairs of DMUs (alternatives) using CCR Data Envelopment Analysis Model with hierarchical structure of outputs.</description>
+        <contact>
+            <![CDATA[Anna Labijak <anna.labijak@cs.put.poznan.pl>]]>
+        </contact>
+    </documentation>
+    <parameters>
+        <input id="units" name="units" displayName="units" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs).</description>
+            </documentation>
+            <xmcda tag="alternatives">
+                <![CDATA[<alternatives>
+                        <alternative>
+                            [...]
+                        </alternative>
+                        [...]
+                    </alternatives>]]>
+            </xmcda>
+        </input>
+        <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs) performances (on leaf hierarchy criteria).</description>
+            </documentation>
+            <xmcda tag="performanceTable">
+                <![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>
+									[...]
+								</criterionID>
+								<value>[...]</value>
+							</performance>
+							[...]
+						</alternativePerformances>
+						[...]
+					</performanceTable>]]>
+            </xmcda>
+        </input>
+        <input id="hierarchy" name="hierarchy" displayName="hierarchy" isoptional="0">
+            <documentation>
+                <description>The hierarchical structure of criteria.</description>
+            </documentation>
+            <xmcda tag="hierarchy">
+                <![CDATA[
+                <hierarchy>
+                    <node>
+                        <criterionID>[...]</criterionID>
+                        <node>
+                            <criterionID>[...]</criterionID>
+                            <node>
+                                [...]
+                            </node>
+                            [...]
+                        </node>
+                        [...]
+                    </node>
+                </hierarchy>]]>
+            </xmcda>
+        </input>
+        <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
+            <documentation>
+                <description>A list of hierarchy criteria linear constraints.</description>
+            </documentation>
+            <xmcda tag="criteriaLinearConstraints">
+                <![CDATA[<criteriaLinearConstraints>
+						<constraint>
+							<element>
+								<criterionID> [...] </criterionID>
+								<coefficient>
+									[...]
+								</coefficient>
+							</element>
+							[...]
+							<operator>[...]</operator>
+							<rhs>
+								[...]
+							</rhs>
+						</constraint>
+						[...]
+					</criteriaLinearConstraints>]]>
+            </xmcda>
+        </input>
+        <input id="methodParameters" name="methodParameters" displayName="method parameters">
+            <documentation>
+                <description>Represents method parameters (hierarchyNode).</description>
+            </documentation>
+            <xmcda tag="methodParameters">
+                <![CDATA[
+    <methodParameters>
+        <parameter id="hierarchyNode">
+            <value><label>%1</label></value>
+        </parameter>
+    </methodParameters>]]>
+            </xmcda>
+            <gui status="preferGUI">
+                <entry id="%1" type="string" displayName="hierarchy node">
+                    <documentation>
+                        <description>ID of the hierarchy criterion for which the analysis should be performed.</description>
+                    </documentation>
+                    <defaultValue>root</defaultValue>
+                </entry>
+            </gui>
+        </input>
+        <output id="necessaryDominance" name="necessaryDominance" displayName="necessary dominance">
+            <documentation>
+                <description>A list of pairs of DMUs related with necessary preference relation.</description>
+            </documentation>
+            <xmcda tag="alternativesComparisons">
+                <![CDATA[
+         <alternativesComparisons>
+						<pairs>
+              <pair>
+                  <initial>
+                    <alternativeID>[...]</alternativeID>
+                  </initial>
+                  <terminal>
+                    <alternativeID>[...]</alternativeID>
+                  </terminal>
+                  <values>
+                    <value>
+                      <real>1</real>
+                    </value>
+                  </values>
+              </pair>
+						  [...]
+            </pairs>
+            [...]
+					</alternativesComparisons>]]>
+            </xmcda>
+        </output>
+        <output id="possibleDominance" name="possibleDominance" displayName="possible dominance">
+            <documentation>
+                <description>A list of pairs of DMUs related with possible preference relation.</description>
+            </documentation>
+            <xmcda tag="alternativesComparisons">
+                <![CDATA[
+         <alternativesComparisons>
+						<pairs>
+              <pair>
+                  <initial>
+                    <alternativeID>[...]</alternativeID>
+                  </initial>
+                  <terminal>
+                    <alternativeID>[...]</alternativeID>
+                  </terminal>
+                  <values>
+                    <value>
+                      <real>1</real>
+                    </value>
+                  </values>
+              </pair>
+						  [...]
+            </pairs>
+            [...]
+					</alternativesComparisons>]]>
+            </xmcda>
+        </output>
+        <output id="messages" name="messages" displayName="messages">
+            <documentation>
+                <description>A list of messages generated by the algorithm.</description>
+            </documentation>
+            <xmcda tag="methodMessages" />
+        </output>
+    </parameters>
+</program_description>

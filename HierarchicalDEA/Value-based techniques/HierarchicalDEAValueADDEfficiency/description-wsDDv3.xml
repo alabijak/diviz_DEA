@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program_description>
+    <program provider="PUT" name="HierarchicalDEA-ValueAdditive_efficiencies" displayName="HierarchicalDEA-ValueAdditive_efficiencies" version="1.0" />
+    <documentation>
+        <description>Computes efficiency scores for the given DMUs (alternatives) using Additive Data Envelopment Analysis Model with hierarchical structure of inputs and outputs.</description>
+        <contact>
+            <![CDATA[Anna Labijak <anna.labijak@cs.put.poznan.pl>]]>
+        </contact>
+    </documentation>
+    <parameters>
+        <input id="units" name="units" displayName="units" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs).</description>
+            </documentation>
+            <xmcda tag="alternatives">
+                <![CDATA[<alternatives>
+                        <alternative>
+                            [...]
+                        </alternative>
+                        [...]
+                    </alternatives>]]>
+            </xmcda>
+        </input>
+        <input id="inputsOutputsScales" name="inputsOutputsScales" displayName="inputs/outputs scales" isoptional="0">
+            <documentation>
+                <description>Information about inputs and outpus (leaf criteria) scales (preference directions) and optionally about boundaries</description>
+            </documentation>
+            <xmcda tag="criteriaScales">
+                <![CDATA[
+<criteriaScales>
+    <criterionScale>
+      <criterionID>[...]</criterionID>
+      <scales>
+        <scale>
+          [...]
+        </scale>
+      </scales>
+    </criterionScale>
+    [...]
+</criteriaScales>]]>
+            </xmcda>
+        </input>
+        <input id="performanceTable" name="performanceTable" displayName="performance" isoptional="0">
+            <documentation>
+                <description>A list of alternatives (DMUs) performances (on leaf hierarchy criteria).</description>
+            </documentation>
+            <xmcda tag="performanceTable">
+                <![CDATA[<performanceTable>
+						<alternativePerformances>
+							<alternativeID> [...] </alternativeID>
+							<performance>
+								<criterionID>
+									[...]
+								</criterionID>
+								<values><value>[...]</value></values>
+							</performance>
+							[...]
+						</alternativePerformances>
+						[...]
+					</performanceTable>]]>
+            </xmcda>
+        </input>
+        <input id="hierarchy" name="hierarchy" displayName="hierarchy" isoptional="0">
+            <documentation>
+                <description>The hierarchical structure of criteria.</description>
+            </documentation>
+            <xmcda tag="criteriaHierarchy">
+                <![CDATA[<criteriaHierarchy>
+						<nodes>
+                            <node>
+                                <criterionID>[...]</criterionID>
+                                <nodes>
+                                    <node>
+                                        <criterionID>[...]</criterionID>
+                                        [...]
+                                    </node>
+                                    [...]
+                                </nodes>
+                            </node>
+                        <nodes>
+					</criteriaHierarchy>]]>
+            </xmcda>
+        </input>
+        <input id="weightsLinearConstraints" name="weightsLinearConstraints" displayName="weights constraints" isoptional="defaultFalse">
+            <documentation>
+                <description>A list of hierarchy criteria linear constraints.</description>
+            </documentation>
+            <xmcda tag="criteriaLinearConstraints">
+                <![CDATA[
+            <criteriaLinearConstraints>
+                <constraints>
+                    <constraint>
+                        <elements>
+                            <element>
+                                <criterionID> [...] </criterionID>
+                                <coefficient>
+                                    [...]
+                                </coefficient>
+                            </element>
+                            [...]
+                        </elements>
+                        <operator>[...]</operator>
+                        <rhs>
+                            [...]
+                        </rhs>
+                    </constraint>
+                    [...]
+                </constraints>
+            </criteriaLinearConstraints>]]>
+            </xmcda>
+        </input>
+        <input id="methodParameters" name="methodParameters" displayName="method parameters">
+            <documentation>
+                <description>Represents method parameters.
+                "hierarchy node" is the ID of the hierarchy criterion for which the analysis should be performed;
+                "transformToUtilities" means if data should be tranformed into values from range [0-1];
+                "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor.
+                </description>
+            </documentation>
+            <xmcda tag="programParameters">
+                <![CDATA[
+    <programParameters>
+        <parameter id="hierarchyNode">
+            <values>
+                <value><label>%1</label></value>
+            </values>
+        </parameter>
+        <parameter id="transformToUtilities">
+      <values>
+        <value><boolean>%2</boolean></value>
+      </values>
+		</parameter>
+		<parameter id="boundariesProvided">
+      <values>
+        <value><boolean>%3</boolean></value>
+      </values>
+		</parameter>
+    </programParameters>]]>
+            </xmcda>
+            <gui status="preferGUI">
+                <entry id="%1" type="string" displayName="hierarchy node">
+                    <defaultValue>root</defaultValue>
+                </entry>
+                <entry id="%2" type="boolean" displayName="transform to utilities">
+                    <defaultValue>true</defaultValue>
+                </entry>
+                <entry id="%3" type="boolean" displayName="boundaries provided">
+                    <defaultValue>false</defaultValue>
+                </entry>
+            </gui>
+        </input>
+        <output id="minEfficiency" name="minEfficiency" displayName="min efficiency">
+            <documentation>
+                <description>A list of alternatives with computed minimum efficiency scores.</description>
+            </documentation>
+            <xmcda tag="alternativesValues">
+                <![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <values>
+                <value>[...]</value>
+              </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]>
+            </xmcda>
+        </output>
+        <output id="maxEfficiency" name="maxEfficiency" displayName="max efficiency">
+            <documentation>
+                <description>A list of alternatives with computed maximum efficiency scores.</description>
+            </documentation>
+            <xmcda tag="alternativesValues">
+                <![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <values>
+                <value>[...]</value>
+              </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]>
+            </xmcda>
+        </output>
+        <output id="minDistance" name="minDistance" displayName="min distance">
+            <documentation>
+                <description>A list of alternatives with computed minimal distance to efficienct frontier.</description>
+            </documentation>
+            <xmcda tag="alternativesValues">
+                <![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <values>
+                <value>[...]</value>
+              </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]>
+            </xmcda>
+        </output>
+        <output id="maxDistance" name="maxDistance" displayName="max distance">
+            <documentation>
+                <description>A list of alternatives with computed maximal distance to efficienct frontier.</description>
+            </documentation>
+            <xmcda tag="alternativesValues">
+                <![CDATA[<alternativesValues>
+						<alternativeValue>
+						  <alternativeID> [...] </alternativeID>
+						  <values>
+                <value>[...]</value>
+              </values>
+						</alternativeValue>
+						[...]
+					</alternativesValues>]]>
+            </xmcda>
+        </output>
+        <output id="messages" name="messages" displayName="messages">
+            <documentation>
+                <description>A list of messages generated by the algorithm.</description>
+            </documentation>
+            <xmcda tag="programExecutionResult" />
+        </output>
+    </parameters>
+</program_description>

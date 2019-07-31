@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2017/XMCDA-2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance">
+	<methodParameters>
+		<parameter id="hierarchyNode">
+			<value><label>root</label></value>
+		</parameter>
+        <parameter id="samplesNb">
+			<value><integer>1000</integer></value>
+		</parameter>
+        <parameter id="intervalsNb">
+			<value><integer>15</integer></value>
+		</parameter>
+	</methodParameters>
+</xmcda:XMCDA>

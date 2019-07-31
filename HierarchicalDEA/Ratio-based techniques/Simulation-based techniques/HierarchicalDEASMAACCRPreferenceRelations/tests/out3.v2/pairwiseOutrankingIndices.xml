@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2017/XMCDA-2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance">
+    <performanceTable>
+        <alternativePerformances>
+            <alternativeID>AT</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.31</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.42</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.78</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.94</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>BE</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.08</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.16</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.78</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>0.57</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.51</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.62</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>FI</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.69</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.57</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.8</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.97</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.14</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>FR</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.58</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.92</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.43</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.92</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.9</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.14</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.92</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>HU</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>0.06</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.05</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>IE</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.22</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.84</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.2</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.08</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.85</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.82</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>LT</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.06</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.22</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.03</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.1</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.15</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>0.37</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.19</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.46</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>NL</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.98</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.86</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.96</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.63</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>PL</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.43</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>0.94</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.63</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.45</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.54</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>PT</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.49</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.08</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.18</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.81</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>0.55</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>0.62</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>SI</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>0.38</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.02</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>0.95</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>0.01</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>0.54</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>0.46</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>0.38</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>SE</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.99</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>0.93</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>CH</alternativeID>
+            <performance>
+                <criterionID>geq AT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq BE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FI</criterionID>
+                <value>
+                    <real>0.86</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq FR</criterionID>
+                <value>
+                    <real>0.96</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq HU</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq IE</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq LT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq NL</criterionID>
+                <value>
+                    <real>0.37</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PL</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq PT</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SI</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq SE</criterionID>
+                <value>
+                    <real>0.07</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>geq CH</criterionID>
+                <value>
+                    <real>1.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+    </performanceTable>
+</xmcda:XMCDA>

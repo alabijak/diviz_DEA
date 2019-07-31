@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+  <alternatives>
+    <alternative id="dmu1">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu2">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu3">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu4">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu5">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu6">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu7">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu8">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu9">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu10">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu11">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu12">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu13">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu14">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu15">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu16">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu17">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+
+</xmcda:XMCDA>

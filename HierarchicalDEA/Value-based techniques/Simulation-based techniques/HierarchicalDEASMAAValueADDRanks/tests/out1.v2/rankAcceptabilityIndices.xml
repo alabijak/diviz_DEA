@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2017/XMCDA-2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance">
+    <performanceTable>
+        <alternativePerformances>
+            <alternativeID>dmu1</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.077</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.147</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.139</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.158</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.033</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.055</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.151</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.078</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.058</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.104</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu2</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.002</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.066</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.097</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.078</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.757</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu3</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.407</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.215</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.307</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.071</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu4</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.08</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.781</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.139</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu5</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.433</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.113</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.186</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.049</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.101</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.116</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.002</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu6</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.013</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.084</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.072</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.055</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.429</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.183</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.159</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.005</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu7</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.032</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.375</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.575</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.018</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu8</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.074</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.071</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.055</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.084</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.192</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.496</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.028</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu9</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.329</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.124</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.249</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.22</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.038</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.04</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+        <alternativePerformances>
+            <alternativeID>dmu10</alternativeID>
+            <performance>
+                <criterionID>Rank 1</criterionID>
+                <value>
+                    <real>0.074</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 2</criterionID>
+                <value>
+                    <real>0.054</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 3</criterionID>
+                <value>
+                    <real>0.084</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 4</criterionID>
+                <value>
+                    <real>0.127</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 5</criterionID>
+                <value>
+                    <real>0.136</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 6</criterionID>
+                <value>
+                    <real>0.076</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 7</criterionID>
+                <value>
+                    <real>0.219</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 8</criterionID>
+                <value>
+                    <real>0.165</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 9</criterionID>
+                <value>
+                    <real>0.065</real>
+                </value>
+            </performance>
+            <performance>
+                <criterionID>Rank 10</criterionID>
+                <value>
+                    <real>0.0</real>
+                </value>
+            </performance>
+        </alternativePerformances>
+    </performanceTable>
+</xmcda:XMCDA>

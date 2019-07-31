@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2013/XMCDA-3.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2013/XMCDA-3.0.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.0.0.xsd">
+    <criteriaScales>
+        <criterionScale>
+            <criterionID>output_1</criterionID>
+            <scales>
+                <scale>
+                    <quantitative>
+                        <preferenceDirection>max</preferenceDirection>
+                    </quantitative>
+                </scale>
+            </scales>
+        </criterionScale>
+        <criterionScale>
+            <criterionID>input_1</criterionID>
+            <scales>
+                <scale>
+                    <quantitative>
+                        <preferenceDirection>min</preferenceDirection>
+                    </quantitative>
+                </scale>
+            </scales>
+        </criterionScale>
+        <criterionScale>
+            <criterionID>output_2</criterionID>
+            <scales>
+                <scale>
+                    <quantitative>
+                        <preferenceDirection>max</preferenceDirection>
+                    </quantitative>
+                </scale>
+            </scales>
+        </criterionScale>
+        <criterionScale>
+            <criterionID>input_2</criterionID>
+            <scales>
+                <scale>
+                    <quantitative>
+                        <preferenceDirection>min</preferenceDirection>
+                    </quantitative>
+                </scale>
+            </scales>
+        </criterionScale>
+    </criteriaScales>
+</xmcda:XMCDA>

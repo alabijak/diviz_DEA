@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2017/XMCDA-2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance">
+  <alternatives>
+    <alternative id="dmu1">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu2">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu3">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu4">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu5">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu6">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu7">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu8">
+      <active>true</active>
+    </alternative>
+	<alternative id="dmu9">
+      <active>true</active>
+    </alternative>
+    <alternative id="dmu10">
+      <active>true</active>
+    </alternative>
+  </alternatives>
+</xmcda:XMCDA>

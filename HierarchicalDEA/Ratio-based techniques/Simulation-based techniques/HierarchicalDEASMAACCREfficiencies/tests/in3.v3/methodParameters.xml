@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xmcda:XMCDA  xmlns:xmcda="http://www.decision-deck.org/2018/XMCDA-3.1.0">
+	<programParameters>
+		<parameter id="hierarchyNode">
+            <values>
+                <value><label>root</label></value>
+            </values>
+		</parameter>
+        <parameter id="samplesNb">
+            <values>
+                <value>
+                    <integer>100</integer>
+                </value>
+            </values>
+        </parameter>
+        <parameter id="intervalsNb">
+            <values>
+                <value>
+                    <integer>10</integer>
+                </value>
+            </values>
+        </parameter>
+	</programParameters>
+</xmcda:XMCDA>

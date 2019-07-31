@@ -1,0 +1,2368 @@
+<?xml version="1.0" ?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2018/XMCDA-3.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2018/XMCDA-3.1.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-3.1.0.xsd">
+	<performanceTable>
+		<alternativePerformances>
+			<alternativeID>dmu1</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.618</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.486</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.094</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.084</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.356</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.004</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.628</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.632</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.99</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.32</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.232</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.344</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.21</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu2</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.382</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.424</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.276</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.234</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.1</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.548</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.494</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.906</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.178</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.19</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.206</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu3</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.514</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.576</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.08</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.274</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.352</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.042</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.616</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.64</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.31</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.158</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.302</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.18</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu4</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.334</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.972</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.62</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.982</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.934</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.904</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.044</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.75</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.596</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.888</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.046</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu5</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.906</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.92</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.666</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.878</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.842</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.838</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.99</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.946</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.992</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.854</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.264</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.788</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.754</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.87</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.43</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu6</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.916</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.724</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.726</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.028</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.122</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.404</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.13</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.684</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.968</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.472</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.384</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.388</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.312</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.002</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu7</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.644</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.766</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.648</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.38</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.158</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.596</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.538</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.992</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.672</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.886</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.546</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.12</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.492</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.448</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.496</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.216</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu8</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.996</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.9</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.958</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.018</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.162</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.87</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.462</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.752</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.586</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.528</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.416</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.38</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu9</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.372</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.452</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.384</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.066</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.01</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.316</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.008</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.248</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.422</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.716</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.238</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.022</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.238</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.21</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.14</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.052</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu10</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.368</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.506</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.36</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.054</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.032</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.328</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.578</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.288</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.056</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.304</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.186</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu11</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.01</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.094</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.008</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.114</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.284</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.044</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.09</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.02</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu12</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.68</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.822</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.69</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.096</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.146</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.528</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.454</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.414</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.762</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.712</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.956</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.42</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.358</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.24</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu13</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.956</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.736</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.88</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.978</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.904</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.978</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.764</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu14</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.768</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.81</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.842</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.25</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.212</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.616</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.508</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.472</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.762</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.944</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.58</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.46</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.436</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.124</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu15</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.656</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>0.794</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.698</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.404</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.246</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.612</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.552</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.584</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.79</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.696</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.91</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.642</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.096</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.54</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.554</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.138</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu16</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>0.79</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>0.82</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.112</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.13</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.688</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.504</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>0.62</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.86</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>0.814</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>0.98</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>0.76</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.022</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.564</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.446</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>0.006</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+		<alternativePerformances>
+			<alternativeID>dmu17</alternativeID>
+			<performance>
+				<criterionID>geq dmu1</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu2</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu3</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu4</criterionID>
+				<values>
+					<value>
+						<real>0.954</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu5</criterionID>
+				<values>
+					<value>
+						<real>0.57</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu6</criterionID>
+				<values>
+					<value>
+						<real>0.998</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu7</criterionID>
+				<values>
+					<value>
+						<real>0.784</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu8</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu9</criterionID>
+				<values>
+					<value>
+						<real>0.948</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu10</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu11</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu12</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu13</criterionID>
+				<values>
+					<value>
+						<real>0.236</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu14</criterionID>
+				<values>
+					<value>
+						<real>0.876</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu15</criterionID>
+				<values>
+					<value>
+						<real>0.862</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu16</criterionID>
+				<values>
+					<value>
+						<real>0.994</real>
+					</value>
+				</values>
+			</performance>
+			<performance>
+				<criterionID>geq dmu17</criterionID>
+				<values>
+					<value>
+						<real>1.0</real>
+					</value>
+				</values>
+			</performance>
+		</alternativePerformances>
+	</performanceTable>
+</xmcda:XMCDA>

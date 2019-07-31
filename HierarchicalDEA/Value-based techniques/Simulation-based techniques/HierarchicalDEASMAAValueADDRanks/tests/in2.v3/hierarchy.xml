@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2018/XMCDA-3.1.0">
+    <criteriaHierarchy>
+        <nodes>
+            <node>
+                <criterionID>all</criterionID>
+                <nodes>
+                    <node>
+                        <criterionID>group_1</criterionID>
+                        <nodes>
+                            <node>
+                                <criterionID>output_1</criterionID>
+                            </node>
+                            <node>
+                                <criterionID>input_1</criterionID>
+                            </node>
+                        </nodes>
+                    </node>
+                    <node>
+                        <criterionID>group_2</criterionID>
+                        <nodes>
+                            <node>
+                                <criterionID>output_2</criterionID>
+                            </node>
+                            <node>
+                                <criterionID>input_2</criterionID>
+                            </node>
+                        </nodes>
+                    </node>
+                </nodes>
+            </node>
+        </nodes>
+    </criteriaHierarchy>
+</xmcda:XMCDA>
