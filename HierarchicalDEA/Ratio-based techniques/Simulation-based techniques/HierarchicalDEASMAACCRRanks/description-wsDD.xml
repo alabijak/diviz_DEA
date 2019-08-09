@@ -85,7 +85,7 @@
 					</criteriaLinearConstraints>]]>
             </xmcda>
         </input>
-        <input id="methodParameters" name="methodParameters" displayName="method parameters">
+        <input id="methodParameters" name="methodParameters" displayName="parameters">
             <documentation>
                 <description>"number of samples" represents the number of samples to generate; "hierarchy node" is the ID of the hierarchy criterion for which the analysis should be performed.</description>
             </documentation>

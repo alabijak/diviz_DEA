@@ -102,10 +102,10 @@
 					</criteriaLinearConstraints>]]>
             </xmcda>
         </input>
-        <input id="methodParameters" name="methodParameters" displayName="method parameters">
+        <input id="methodParameters" name="methodParameters" displayName="parameters">
             <documentation>
-                <description>Represents method parameters.
-            "number of samples" represents the number of samples to generate; 
+                <description>Represents parameters.
+            "number of samples" represents the number of samples to generate;
             "hierarchy node" is the ID of the hierarchy criterion for which the analysis should be performed;
             "transformToUtilities" means if data should be tranformed into values from range [0-1];
             "boundariesProvided" means if inputsOutputs file contains information about min and max data for each factor.

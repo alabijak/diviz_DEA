@@ -86,9 +86,9 @@
 					</criteriaLinearConstraints>]]>
             </xmcda>
         </input>
-        <input id="methodParameters" name="methodParameters" displayName="method parameters">
+        <input id="methodParameters" name="methodParameters" displayName="parameters">
             <documentation>
-                <description>Represents method parameters (hierarchyNode).</description>
+                <description>Represents parameters (hierarchyNode).</description>
             </documentation>
             <xmcda tag="methodParameters">
                 <![CDATA[
