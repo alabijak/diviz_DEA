@@ -185,7 +185,7 @@
 					</performanceTable>]]>
             </xmcda>
         </output>
-        <output id="avgRank" name="avgRank" displayName="avgerage rank">
+        <output id="avgRank" name="avgRank" displayName="average rank">
             <documentation>
                 <description>A list of alternatives with average rank (obtained for given sample).</description>
             </documentation>
