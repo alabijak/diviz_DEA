@@ -110,7 +110,7 @@
                     </constraint>
                     <defaultValue>100</defaultValue>
                 </entry>
-                <entry id="%2" type="string" displayName="hierarchy node">
+                <entry id="%3" type="string" displayName="hierarchy node">
                     <defaultValue>root</defaultValue>
                 </entry>
             </gui>
