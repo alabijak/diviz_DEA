@@ -110,7 +110,7 @@
             </criteriaLinearConstraints>]]>
             </xmcda>
         </input>
-        <input id="methodParameters" name="methodParameters" displayName="parameters">
+        <input id="methodParameters" name="methodParameters" displayName="parameters" isoptional="0">
             <documentation>
                 <description>Represents parameters.
                 "number of samples" represents the number of samples to generate;

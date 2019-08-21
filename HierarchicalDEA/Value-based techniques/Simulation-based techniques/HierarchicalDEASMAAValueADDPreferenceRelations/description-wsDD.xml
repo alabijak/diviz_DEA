@@ -91,7 +91,7 @@
 						[...]
 					</criteriaLinearConstraints>]]></xmcda>
       </input>
-	  <input id="methodParameters" name="methodParameters" displayName="parameters">
+	  <input id="methodParameters" name="methodParameters" displayName="parameters" isoptional="0">
          <documentation>
             <description>Represents parameters.
             "hierarchy node" is the ID of the hierarchy criterion for which the analysis should be performed,

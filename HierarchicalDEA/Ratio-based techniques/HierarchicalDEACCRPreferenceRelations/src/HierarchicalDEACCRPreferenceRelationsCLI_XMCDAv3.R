@@ -57,7 +57,7 @@ loadXMCDAv3(xmcdaData, inDirectory, unitsFile, mandatory = TRUE, xmcdaMessages, 
 loadXMCDAv3(xmcdaData, inDirectory, hierarchyFile, mandatory = TRUE, xmcdaMessages, "criteriaHierarchy")
 loadXMCDAv3(xmcdaData, inDirectory, performanceTableFile, mandatory = TRUE, xmcdaMessages, "performanceTable")
 loadXMCDAv3(xmcdaData, inDirectory, weightsLinearConstraintsFile, mandatory = FALSE, xmcdaMessages, "criteriaLinearConstraints")
-loadXMCDAv3(xmcdaData, inDirectory, methodParametersFile, mandatory = FALSE, xmcdaMessages, "programParameters")
+loadXMCDAv3(xmcdaData, inDirectory, methodParametersFile, mandatory = TRUE, xmcdaMessages, "programParameters")
 
 # if we have problem with the inputs, it is time to stop
 
