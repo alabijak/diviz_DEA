@@ -137,11 +137,6 @@
 			  <value><boolean>%4</boolean></value>
       </values>
 		</parameter>
-		<parameter id="functionShapeProvided">
-      <values>
-			  <value><boolean>%5</boolean></value>
-      </values>
-		</parameter>
 	</programParameters>
 ]]>
             </xmcda>
@@ -162,9 +157,6 @@
                     <defaultValue>true</defaultValue>
                 </entry>
                 <entry id="%4" type="boolean" displayName="boundaries provided">
-                    <defaultValue>false</defaultValue>
-                </entry>
-                <entry id="%5" type="boolean" displayName="function shapes provided">
                     <defaultValue>false</defaultValue>
                 </entry>
             </gui>

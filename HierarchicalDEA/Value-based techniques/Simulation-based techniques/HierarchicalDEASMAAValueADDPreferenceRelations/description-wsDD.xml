@@ -114,9 +114,6 @@
 		<parameter id="boundariesProvided">
 			<value><boolean>%4</boolean></value>
 		</parameter>
-		<parameter id="functionShapeProvided">
-			<value><boolean>%5</boolean></value>
-		</parameter>
 	</methodParameters>
 ]]></xmcda>
          <gui status="preferGUI">
@@ -134,9 +131,6 @@
                <defaultValue>true</defaultValue>
             </entry>
             <entry id="%4" type="boolean" displayName="boundaries provided">
-               <defaultValue>false</defaultValue>
-            </entry>
-            <entry id="%5" type="boolean" displayName="function shapes provided">
                <defaultValue>false</defaultValue>
             </entry>
          </gui>
