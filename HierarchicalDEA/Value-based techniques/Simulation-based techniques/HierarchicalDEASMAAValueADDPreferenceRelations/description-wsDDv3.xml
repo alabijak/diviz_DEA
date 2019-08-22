@@ -125,7 +125,9 @@
        </values>
 		</parameter>
 		<parameter id="hierarchyNode">
+			<values>
 			<value><label>%2</label></value>
+			</values>
 		</parameter>
 		<parameter id="transformToUtilities">
       <values>
