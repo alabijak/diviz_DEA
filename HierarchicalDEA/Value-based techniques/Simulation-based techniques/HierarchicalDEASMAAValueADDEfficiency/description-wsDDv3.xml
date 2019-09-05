@@ -147,6 +147,11 @@
         <value><boolean>%5</boolean></value>
       </values>
 		</parameter>
+      <parameter id="randomSeed">
+            <values>
+                <value><integer>%6</integer></value>
+            </values>
+        </parameter>
     </programParameters>]]>
             </xmcda>
             <gui status="preferGUI">
@@ -176,6 +181,15 @@
                 </entry>
                 <entry id="%5" type="boolean" displayName="boundaries provided">
                     <defaultValue>false</defaultValue>
+                </entry>
+                <entry id="%6" type="int" displayName="random seed (-1 for default time-based seed)">
+                    <constraint>
+                        <description>The value should be a non-negative integer or -1 if no constant seed required.</description>
+                        <code>
+                            <![CDATA[%6 >= -1]]>
+                        </code>
+                    </constraint>
+                    <defaultValue>-1</defaultValue>
                 </entry>
             </gui>
         </input>

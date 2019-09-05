@@ -34,6 +34,7 @@ checkAndExtractInputs <- function(xmcdaData) {
   hierarchyNode <- "root"
   samplesNo <- 100
   intervalsNo <- 10
+  randomSeed <- -1
   parameters <- as.list(xmcdaData$programParametersList)
   if(length(parameters) > 0)
   {
@@ -55,6 +56,9 @@ checkAndExtractInputs <- function(xmcdaData) {
       hierarchyNode <- param$getValues()$get(as.integer(0))$getValue()
       if(!hierarchyNode %in% names(hierarchy))
         stop(paste("Given hierarchy node: \"", hierarchyNode,"\" does not exist in hierarchy", sep=""))
+    param <- parameters$getParameter("randomSeed")
+    if(!is.null(param))
+      randomSeed <- param$getValues()$get(as.integer(0))$getValue()
     }
   }  
   
@@ -75,7 +79,8 @@ checkAndExtractInputs <- function(xmcdaData) {
                  boundariesProvided = boundariesProvided,
                  hierarchyNode = hierarchyNode,
                  samplesNo = samplesNo,
-                 intervalsNo = intervalsNo)
+                 intervalsNo = intervalsNo,
+                 randomSeed=randomSeed)
   
   if(boundariesProvided == TRUE) {
     low <- array(0,dim=c(length(critIDs)))
