@@ -32,10 +32,7 @@ source("outputsHandler.R")
 # restore the working directory so that relative paths passed as
 # arguments work as expected
 
-if(length(commandArgs(trailingOnly=TRUE)) > 2
-   && !is.na(as.numeric(commandArgs(trailingOnly=TRUE)[3]))){
-  set.seed(as.numeric(commandArgs(trailingOnly=TRUE)[3]))
-}
+
 
 if (!is.null(script.wd)) setwd(script.wd)
 
@@ -102,6 +99,10 @@ if (xmcdaMessages$programExecutionResultsList$size()>0){
   }
 }
 
+if(dmuData$randomSeed != -1){
+  set.seed(dmuData$randomSeed)
+}
+  
 # here we know that everything was loaded as expected
 # now let's call the calculation method
 setwd(script.dir())

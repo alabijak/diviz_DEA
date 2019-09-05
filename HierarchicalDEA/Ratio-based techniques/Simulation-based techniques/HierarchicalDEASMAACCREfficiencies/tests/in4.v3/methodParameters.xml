@@ -11,18 +11,25 @@
       </values>
     </parameter>
     <parameter id="samplesNb">
-            <values>
-                <value>
-                    <integer>500</integer>
-                </value>
-            </values>
-        </parameter>
-        <parameter id="intervalsNb">
-            <values>
-                <value>
-                    <integer>10</integer>
-                </value>
-            </values>
-        </parameter>
+      <values>
+        <value>
+          <integer>500</integer>
+        </value>
+      </values>
+    </parameter>
+    <parameter id="intervalsNb">
+      <values>
+        <value>
+          <integer>10</integer>
+        </value>
+      </values>
+    </parameter>
+    <parameter id="randomSeed">
+      <values>
+        <value>
+          <integer>0</integer>
+        </value>
+      </values>
+    </parameter>
   </programParameters>
 </xmcda:XMCDA>
