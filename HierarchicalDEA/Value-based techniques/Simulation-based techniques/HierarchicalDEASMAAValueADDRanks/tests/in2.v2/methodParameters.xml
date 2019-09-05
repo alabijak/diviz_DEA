@@ -26,5 +26,10 @@
                 <integer>10</integer>
             </value>
         </parameter>
+      <parameter id="randomSeed">
+        <value>
+          <integer>0</integer>
+        </value>
+      </parameter>
     </methodParameters>
 </xmcda:XMCDA>
