@@ -107,6 +107,11 @@
                 <value><label>%3</label></value>
             </values>
         </parameter>
+        <parameter id="randomSeed">
+            <values>
+                <value><integer>%4</label></integer>
+            </values>
+        </parameter>
     </programParameters>]]>
             </xmcda>
             <gui status="preferGUI">
@@ -121,6 +126,15 @@
                 </entry>
                 <entry id="%3" type="string" displayName="hierarchy node">
                     <defaultValue>root</defaultValue>
+                </entry>
+                <entry id="%4" type="int" displayName="random seed (-1 for default time-based seed)">
+                    <constraint>
+                        <description>The value should be a non-negative integer or -1 if no constant seed required.</description>
+                        <code>
+                            <![CDATA[%4 >= -1]]>
+                        </code>
+                    </constraint>
+                    <defaultValue>-1</defaultValue>
                 </entry>
             </gui>
         </input>
