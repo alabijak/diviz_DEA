@@ -20,7 +20,7 @@ for i in $(seq 1 ${NB_TESTS}); do
     REFERENCE_OUT="tests/out${i}.v${version}"
     OUT=$(mktemp --tmpdir=. -d tests_tmp/out.XXX)
     echo "${IN}"
-    ${CMD} "--v${version}" "${IN}" "${OUT}" "0"
+    ${CMD} "--v${version}" "${IN}" "${OUT}"
     diff -x README -ruBw "${REFERENCE_OUT}" "${OUT}"
     ret_diff=$?
     if [ $ret_diff -ne 0 ]; then

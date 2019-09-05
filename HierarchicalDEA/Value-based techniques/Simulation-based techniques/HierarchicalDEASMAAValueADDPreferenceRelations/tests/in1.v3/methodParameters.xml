@@ -36,5 +36,12 @@
                 </value>
             </values>
         </parameter>
+      <parameter id="randomSeed">
+        <values>
+          <value>
+            <integer>0</integer>
+          </value>
+        </values>
+      </parameter>
     </programParameters>
 </xmcda:XMCDA>

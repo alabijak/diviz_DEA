@@ -139,6 +139,11 @@
 			  <value><boolean>%4</boolean></value>
       </values>
 		</parameter>
+         <parameter id="randomSeed">
+            <values>
+                <value><integer>%5</integer></value>
+            </values>
+        </parameter>
 	</programParameters>
 ]]>
             </xmcda>
@@ -161,6 +166,15 @@
                 <entry id="%4" type="boolean" displayName="boundaries provided">
                     <defaultValue>false</defaultValue>
                 </entry>
+                <entry id="%5" type="int" displayName="random seed (-1 for default time-based seed)">
+                <constraint>
+                    <description>The value should be a non-negative integer or -1 if no constant seed required.</description>
+                    <code>
+                        <![CDATA[%5 >= -1]]>
+                    </code>
+                </constraint>
+                <defaultValue>-1</defaultValue>
+            </entry>
             </gui>
         </input>
         <output id="pairwiseOutrankingIndices" name="pairwiseOutrankingIndices" displayName="pairwise outranking indices">
