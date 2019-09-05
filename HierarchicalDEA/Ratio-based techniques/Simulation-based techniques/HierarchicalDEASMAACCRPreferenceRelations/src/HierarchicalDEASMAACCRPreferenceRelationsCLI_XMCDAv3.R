@@ -32,11 +32,6 @@ source("outputsHandler.R")
 # restore the working directory so that relative paths passed as
 # arguments work as expected
 
-if(length(commandArgs(trailingOnly=TRUE)) > 2
-   && !is.na(as.numeric(commandArgs(trailingOnly=TRUE)[3]))){
-  set.seed(as.numeric(commandArgs(trailingOnly=TRUE)[3]))
-}
-
 if (!is.null(script.wd)) setwd(script.wd)
 
 # get the in and out directories from the arguments
@@ -82,6 +77,10 @@ if (xmcdaMessages$programExecutionResultsList$size()>0){
     writeXMCDA(xmcdaMessages, paste(outDirectory,messagesFile, sep="/"))
     stop(paste("An error has occured while checking and extracting the inputs. For further details, see ", messagesFile, sep=""))
   }
+}
+
+if(dmuData$randomSeed != -1){
+  set.seed(dmuData$randomSeed)
 }
 
 # here we know that everything was loaded as expected

@@ -22,18 +22,25 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) {
   
   
   samplesNo <- 100
+  hierarchyNode <- "root"
+  randomSeed <- -1
   parameters <- as.list(xmcdaData$programParametersList)
   if(length(parameters) > 0) {
     parameters <- parameters[[1]]
     param <- parameters$getParameter("samplesNb")
     if(!is.null(param))
       samplesNo <-param$getValues()$get(as.integer(0))$getValue()
+    
     param <- parameters$getParameter("hierarchyNode")
     if(!is.null(param)){
       hierarchyNode <- param$getValues()$get(as.integer(0))$getValue()
       if(!hierarchyNode %in% names(hierarchy))
         stop(paste("Given hierarchy node: \"", hierarchyNode,"\" does not exist in hierarchy", sep=""))
     }
+    
+    param <- parameters$getParameter("randomSeed")
+    if(!is.null(param))
+      randomSeed <-param$getValues()$get(as.integer(0))$getValue()
   }
   
   node <- hierarchy[[hierarchyNode]]
@@ -48,7 +55,8 @@ checkAndExtractInputs <- function(xmcdaData, programExecutionResult) {
                  hierarchy = hierarchy,
                  critIDs=colnames(performance),
                  samplesNo=samplesNo,
-                 hierarchyNode=hierarchyNode)
+                 hierarchyNode=hierarchyNode,
+                 randomSeed=randomSeed)
   if(result$withWeightConstraints){
     result <- removeUnnecessaryConstraints(result)
     result$withWeightConstraints <- length(result$weightConstraints) > 0
