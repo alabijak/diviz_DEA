@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+	<alternatives>
+		<alternative id="Dalian">
+			<active>true</active>
+		</alternative>
+		<alternative id="Yingkou">
+			<active>true</active>
+		</alternative>
+		<alternative id="Qinhuangdao">
+			<active>true</active>
+		</alternative>
+		<alternative id="Tianjin">
+			<active>true</active>
+		</alternative>
+		<alternative id="Yantai">
+			<active>true</active>
+		</alternative>
+		<alternative id="Qingdao">
+			<active>true</active>
+		</alternative>
+		<alternative id="Rizhao">
+			<active>true</active>
+		</alternative>
+		<alternative id="Shanghai">
+			<active>true</active>
+		</alternative>
+		<alternative id="Lianyungang">
+			<active>true</active>
+		</alternative>
+		<alternative id="Ningbo-zhoushan">
+			<active>true</active>
+		</alternative>
+		<alternative id="Fuzhou">
+			<active>true</active>
+		</alternative>
+		<alternative id="Xiamen">
+			<active>true</active>
+		</alternative>
+		<alternative id="Shantou">
+			<active>true</active>
+		</alternative>
+		<alternative id="Shenzhen">
+			<active>true</active>
+		</alternative>
+		<alternative id="Guangzhou">
+			<active>true</active>
+		</alternative>
+		<alternative id="Zhanjiang">
+			<active>true</active>
+		</alternative>
+		<alternative id="Fangcheng">
+			<active>true</active>
+		</alternative>
+	</alternatives>
+</xmcda:XMCDA>

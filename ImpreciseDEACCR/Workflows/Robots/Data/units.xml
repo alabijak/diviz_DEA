@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xmcdaKappalab.xsl"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+	<alternatives>
+		<alternative id="1">
+			<active>true</active>
+		</alternative>
+		<alternative id="2">
+			<active>true</active>
+		</alternative>
+		<alternative id="3">
+			<active>true</active>
+		</alternative>
+		<alternative id="4">
+			<active>true</active>
+		</alternative>
+		<alternative id="5">
+			<active>true</active>
+		</alternative>
+		<alternative id="6">
+			<active>true</active>
+		</alternative>
+		<alternative id="7">
+			<active>true</active>
+		</alternative>
+		<alternative id="8">
+			<active>true</active>
+		</alternative>
+		<alternative id="9">
+			<active>true</active>
+		</alternative>
+		<alternative id="10">
+			<active>true</active>
+		</alternative>
+		<alternative id="11">
+			<active>true</active>
+		</alternative>
+		<alternative id="12">
+			<active>true</active>
+		</alternative>
+		<alternative id="13">
+			<active>true</active>
+		</alternative>
+		<alternative id="14">
+			<active>true</active>
+		</alternative>
+		<alternative id="15">
+			<active>true</active>
+		</alternative>
+		<alternative id="16">
+			<active>true</active>
+		</alternative>
+		<alternative id="17">
+			<active>true</active>
+		</alternative>
+		<alternative id="18">
+			<active>true</active>
+		</alternative>
+		<alternative id="18">
+			<active>true</active>
+		</alternative>
+		<alternative id="19">
+			<active>true</active>
+		</alternative>
+		<alternative id="20">
+			<active>true</active>
+		</alternative>
+		<alternative id="21">
+			<active>true</active>
+		</alternative>
+		<alternative id="22">
+			<active>true</active>
+		</alternative>
+		<alternative id="23">
+			<active>true</active>
+		</alternative>
+		<alternative id="24">
+			<active>true</active>
+		</alternative>
+		<alternative id="25">
+			<active>true</active>
+		</alternative>
+		<alternative id="26">
+			<active>true</active>
+		</alternative>
+		<alternative id="27">
+			<active>true</active>
+		</alternative>
+	</alternatives>
+</xmcda:XMCDA>

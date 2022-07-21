@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+  <criteriaLinearConstraints>
+	<!-- <constraint> -->
+		<!-- <element> -->
+			<!-- <criterionID>labor_population</criterionID> -->
+			<!-- <coefficient><real>1</real></coefficient> -->
+		<!-- </element> -->
+		<!-- <rhs><real>0</real></rhs> -->
+		<!-- <operator>geq</operator> -->
+	<!-- </constraint> -->
+	
+	<constraint>
+		<element>
+			<criterionID>labor_population</criterionID>
+			<coefficient><real>1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>energy_consumption</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>water_pollutants</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<rhs><real>0</real></rhs>
+		<operator>leq</operator>
+	</constraint>
+	
+	<constraint>
+		<element>
+			<criterionID>energy_consumption</criterionID>
+			<coefficient><real>1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>labor_population</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>water_pollutants</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<rhs><real>0</real></rhs>
+		<operator>leq</operator>
+	</constraint>
+	
+	<constraint>
+		<element>
+			<criterionID>water_pollutants</criterionID>
+			<coefficient><real>1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>energy_consumption</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<rhs><real>0</real></rhs>
+		<operator>leq</operator>
+	</constraint> 
+	
+	<constraint>
+		<element>
+			<criterionID>water_pollutants</criterionID>
+			<coefficient><real>1</real></coefficient>
+		</element>
+		<element>
+			<criterionID>labor_population</criterionID>
+			<coefficient><real>-1</real></coefficient>
+		</element>
+		<rhs><real>0</real></rhs>
+		<operator>leq</operator>
+	</constraint>
+  </criteriaLinearConstraints>
+</xmcda:XMCDA>
